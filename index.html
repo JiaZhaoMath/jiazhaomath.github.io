@@ -1,150 +1,40 @@
-<!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Jia Zhao</title>
-<meta name="description" content="Jia Zhao, Assistant Professor, Department of Mathematics, The University of Alabama.">
-<link rel="canonical" href="https://jiazhaomath.github.io/">
-<link rel="icon" href="favicon.svg" type="image/svg+xml">
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"Person","name":"Jia Zhao","alternateName":"赵佳",
- "jobTitle":"Assistant Professor","email":"mailto:jia.zhao@ua.edu",
- "affiliation":{"@type":"CollegeOrUniversity","name":"The University of Alabama"},
- "identifier":"https://orcid.org/0000-0001-6021-0841",
- "sameAs":["https://orcid.org/0000-0001-6021-0841","https://www.linkedin.com/in/jia-zhao-80bb36254/",
-  "https://scholar.google.com/citations?user=KcluNRsAAAAJ","https://sites.ua.edu/jzhao/"]}
-</script>
-<style>
-  :root {
-    --bg: #f6f8f8;
-    --card: #ffffff;
-    --ink: #1b2528;
-    --muted: #5a6a6e;
-    --accent: #0f5c6e;
-    --accent-ink: #ffffff;
-    --line: #dde4e5;
-    --tile: #f1f5f6;
-    --scholar: #4285f4;
-    --orcid: #a6ce39;
-    --linkedin: #0a66c2;
-    --ua: #9e1b32;
-  }
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --bg: #0f1517;
-      --card: #172024;
-      --ink: #e6eeef;
-      --muted: #9aabaf;
-      --accent: #4fb3c8;
-      --accent-ink: #0b1316;
-      --line: #263236;
-      --tile: #1f2b30;
-      --scholar: #6ea4f7;
-      --linkedin: #4a92e0;
-      --ua: #e0566c;
-    }
-  }
-  * { box-sizing: border-box; }
-  html, body { margin: 0; height: 100%; }
-  body {
-    background: var(--bg);
-    color: var(--ink);
-    font: 16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 24px 16px;
-  }
-  main {
-    width: 100%;
-    max-width: 480px;
-    background: var(--card);
-    border: 1px solid var(--line);
-    border-radius: 14px;
-    padding: 40px 32px 32px;
-    text-align: center;
-  }
-  h1 { margin: 0 0 4px; font-size: 2rem; font-weight: 650; letter-spacing: -0.01em; }
-  h1 span { font-weight: 400; color: var(--muted); margin-left: 0.25em; }
-  p { margin: 0; color: var(--muted); }
-  .mail { margin-top: 12px; }
-  .mail a { color: var(--accent); text-decoration: none; }
-  .mail a:hover { text-decoration: underline; }
-  .primary {
-    display: block;
-    margin-top: 28px;
-    padding: 12px 16px;
-    border-radius: 10px;
-    font-weight: 600;
-    text-decoration: none;
-    background: var(--accent);
-    color: var(--accent-ink);
-  }
-  .primary:hover { filter: brightness(1.08); }
-  .links {
-    list-style: none;
-    margin: 24px 0 0;
-    padding: 0;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 8px;
-  }
-  .links a {
-    display: grid;
-    justify-items: center;
-    gap: 6px;
-    padding: 6px 0;
-    border-radius: 10px;
-    color: var(--muted);
-    font-size: .78rem;
-    font-weight: 600;
-    text-decoration: none;
-  }
-  .links .ic {
-    width: 48px;
-    height: 48px;
-    display: grid;
-    place-items: center;
-    border-radius: 50%;
-    background: var(--tile);
-    border: 1px solid var(--line);
-    transition: transform .15s ease, border-color .15s ease;
-  }
-  .links svg { width: 24px; height: 24px; fill: currentColor; }
-  .links a:hover { color: var(--ink); }
-  .links a:hover .ic { transform: translateY(-2px); border-color: currentColor; }
-  .scholar .ic { color: var(--scholar); }
-  .orcid .ic { color: var(--orcid); }
-  .linkedin .ic { color: var(--linkedin); }
-  .ua .ic { color: var(--ua); }
-  .email .ic { color: var(--accent); }
-  a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
-  @media (prefers-reduced-motion: reduce) { .links .ic { transition: none; } .links a:hover .ic { transform: none; } }
-  @media (max-width: 420px) {
-    main { padding: 32px 16px 24px; }
-    h1 { font-size: 1.7rem; }
-    .links { gap: 4px; }
-    .links .ic { width: 44px; height: 44px; }
-    .links svg { width: 22px; height: 22px; }
-    .links a { font-size: .72rem; }
-  }
-</style>
-</head>
-<body>
-<main>
-  <h1>Jia Zhao<span lang="zh">赵佳</span></h1>
-  <p>Assistant Professor, Department of Mathematics</p>
-  <p>The University of Alabama</p>
-  <p class="mail"><a href="mailto:jia.zhao@ua.edu">jia.zhao@ua.edu</a></p>
-  <a class="primary" href="publications.html">Publications</a>
-  <ul class="links">
-    <li><a class="scholar" href="https://scholar.google.com/citations?hl=en&amp;user=KcluNRsAAAAJ&amp;view_op=list_works&amp;sortby=pubdate" rel="me"><span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/></svg></span>Scholar</a></li>
-    <li><a class="orcid" href="https://orcid.org/0000-0001-6021-0841" rel="me"><span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0C5.372 0 0 5.372 0 12s5.372 12 12 12 12-5.372 12-12S18.628 0 12 0zM7.369 4.378c.525 0 .947.431.947.947s-.422.947-.947.947a.95.95 0 0 1-.947-.947c0-.525.422-.947.947-.947zm-.722 3.038h1.444v10.041H6.647V7.416zm3.562 0h3.9c3.712 0 5.344 2.653 5.344 5.025 0 2.578-2.016 5.025-5.325 5.025h-3.919V7.416zm1.444 1.303v7.444h2.297c3.272 0 4.022-2.484 4.022-3.722 0-2.016-1.284-3.722-4.097-3.722h-2.222z"/></svg></span>ORCID</a></li>
-    <li><a class="linkedin" href="https://www.linkedin.com/in/jia-zhao-80bb36254/" rel="me"><span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></span>LinkedIn</a></li>
-    <li><a class="ua" href="https://sites.ua.edu/jzhao/"><span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 1.5 1.5 7v2h21V7L12 1.5zM3.55 10.5h2.4v8h-2.4zM8.05 10.5h2.4v8h-2.4zM13.55 10.5h2.4v8h-2.4zM18.05 10.5h2.4v8h-2.4zM1.5 20h21v2.5h-21z"/></svg></span>UA page</a></li>
-    <li><a class="email" href="mailto:jia.zhao@ua.edu"><span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 4h20a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1zm10 8.2L3.6 6.5H3v.9l9 6.1 9-6.1v-.9h-.6L12 12.2z"/></svg></span>Email</a></li>
-  </ul>
-</main>
-</body>
-</html>
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><script>try{var t=localStorage.getItem('theme');if(t==='light'||t==='dark')document.documentElement.dataset.theme=t}catch(e){}</script><title>Jia Zhao · Assistant Professor, The University of Alabama</title><meta name="description" content="Modeling, analysis, and simulation of complex fluids and living systems."><meta name="author" content="Jia Zhao"><meta name="theme-color" content="#343a40"><meta property="og:type" content="profile"><meta property="og:site_name" content="Jia Zhao"><meta property="og:title" content="Jia Zhao · Assistant Professor, The University of Alabama"><meta property="og:description" content="Modeling, analysis, and simulation of complex fluids and living systems."><meta property="og:url" content="https://zhaojia.net/"><meta property="og:image" content="https://zhaojia.net/images/jia-zhao.jpg"><meta name="twitter:card" content="summary"><link rel="canonical" href="https://zhaojia.net/"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><link rel="sitemap" href="/sitemap-index.xml"><meta name="generator" content="Astro v7.3.2"><script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Jia Zhao","jobTitle":"Assistant Professor","worksFor":{"@type":"Organization","name":"Department of Mathematics","parentOrganization":{"@type":"CollegeOrUniversity","name":"The University of Alabama"}},"email":"mailto:jia.zhao@ua.edu","url":"https://zhaojia.net/","image":"https://zhaojia.net/images/jia-zhao.jpg","sameAs":["https://scholar.google.com/citations?user=KcluNRsAAAAJ","https://github.com/JiaZhaoMath","https://math.ua.edu/people/jia-zhao/","https://www.researchgate.net/profile/Jia_Zhao22","https://orcid.org/0000-0001-6021-0841","https://www.linkedin.com/in/jia-zhao-80bb36254/","https://github.com/c2fd"],"alternateName":"赵佳","alumniOf":[{"@type":"CollegeOrUniversity","name":"University of South Carolina"},{"@type":"CollegeOrUniversity","name":"Nankai University"}]}</script><link rel="stylesheet" href="/_astro/Base.Dvtokn3Y.css"></head><body><a class="skip" href="#main">Skip to content</a><header class="site-head" data-nav><div class="frame navbar"><a class="brand" href="/">Jia Zhao</a><button type="button" class="toggler" data-nav-toggle aria-controls="site-nav" aria-expanded="false" aria-label="Toggle navigation"><svg viewBox="0 0 30 30" aria-hidden="true"><path d="M4 7h22M4 15h22M4 23h22"></path></svg></button><div class="nav-wrap" id="site-nav"><nav aria-label="Site"><ul class="nav"><li><a href="/" aria-current="page">Home</a></li><li><a href="/people">People</a></li><li><a href="/research">Research</a></li><li><a href="/publications">Publications</a></li><li><a href="/software">Software</a></li><li><a href="/teaching">Teaching</a></li></ul></nav><button type="button" class="icon-btn theme-btn" data-theme-toggle aria-label="Toggle color scheme" title="Light / dark / system"><svg class="sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2m0 16v2M4.9 4.9l1.4 1.4m11.4 11.4 1.4 1.4M2 12h2m16 0h2M4.9 19.1l1.4-1.4m11.4-11.4 1.4-1.4"></path></svg><svg class="moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"></path></svg></button></div></div></header><div class="band" aria-hidden="true" data-band><canvas data-ch-canvas></canvas><span class="band-note">Cahn–Hilliard phase separation, computed live</span></div><main class="frame" id="main"><h2 class="page-title">Prof. Jia Zhao's (<span lang="zh-Hans">赵佳</span>) Homepage</h2><hr><div class="home-row"><div><img class="portrait" src="/images/jia-zhao.jpg" alt="Portrait of Jia Zhao" width="212" height="270"><h5 class="my-3">Contact Information</h5><ul><li>Email: <a href="mailto:jia.zhao@ua.edu">jia.zhao@ua.edu</a></li><li>Office: 144 Gordon Palmer Hall</li><li>Address: Department of Mathematics, The University of Alabama, Tuscaloosa, Alabama</li></ul></div><div><h4 class="my-3">Employment</h4><ul><li>2025–, Assistant Professor, The University of Alabama</li><li>2023–2024, Associate Professor, tenured, Binghamton University (SUNY)</li><li>2022–2023, Associate Professor, early tenured, Utah State University</li><li>2017–2022, Assistant Professor, Utah State University</li><li>2015–2017, Postdoctoral fellow, University of North Carolina at Chapel Hill (with M. Gregory Forest)</li></ul><h4 class="my-3">Education</h4><ul><li>2015, Ph.D. in Applied and Computational Mathematics, University of South Carolina (advisor Qi Wang)</li><li>2010, B.S. in Information and Computational Mathematics, Nankai University</li></ul><h4 class="my-3">Research Interests</h4><p>I am trained as an applied and computational mathematician, aiming to strike a balance between mathematical modeling, numerical analysis, and high-performance simulation; my application domains are multiphase complex fluids and mathematical biology. My research is highly interdisciplinary, sitting at the interface of applied mathematics, scientific computing, soft matter physics, and mathematical biology. Here are several projects I have been working on:</p><ul><li>Machine learning and deep neural networks for PDE model discovery and for solving partial differential equations</li><li>Computational modeling of how living cells use liquid–liquid phase separation (LLPS) to organize chemical compartments</li><li>Hydrodynamic models of biofilms (biofilm formation, antimicrobial persistence, quorum sensing)</li><li>Modeling eukaryotic cell mitotic dynamics (mitotic rounding, cell oscillation, cell motility, and cytokinesis)</li><li>Complex fluid model development (multiphase fluids, active liquid crystals, viscoelastic fluids)</li><li>Fluid–structure interactions (FSI) in complex fluids, with applications in biology and medicine</li><li>Modeling and design of multifunctional polymeric rod-like nanocomposites</li><li>Accurate, efficient, and stable numerical schemes for multiphase complex fluid models</li><li>Software development on hybrid CPU–GPU architectures</li></ul></div></div></main><footer class="site-foot"><div class="frame"><p>Copyright &copy; Jia Zhao 2026</p></div></footer><script>
+      (function () {
+        // Mobile navbar toggle (the legacy site used Bootstrap's collapse plugin for this).
+        var head = document.querySelector('[data-nav]');
+        var tg = document.querySelector('[data-nav-toggle]');
+        if (head && tg) tg.addEventListener('click', function () {
+          var open = !head.hasAttribute('data-open');
+          if (open) head.setAttribute('data-open', ''); else head.removeAttribute('data-open');
+          tg.setAttribute('aria-expanded', String(open));
+        });
+        // Print every accordion expanded, then restore.
+        var shut = [];
+        addEventListener('beforeprint', function () {
+          shut = Array.prototype.filter.call(document.querySelectorAll('details.acc'), function (d) { return !d.open; });
+          shut.forEach(function (d) { d.open = true; });
+        });
+        addEventListener('afterprint', function () { shut.forEach(function (d) { d.open = false; }); shut = []; });
+      })();
+    </script><script>
+      (function () {
+        var b = document.querySelector('[data-theme-toggle]');
+        if (!b) return;
+        var root = document.documentElement;
+        function label() {
+          var t = root.dataset.theme;
+          b.setAttribute('aria-label', 'Color scheme: ' + (t ? t : 'system') + '. Click to change.');
+        }
+        b.addEventListener('click', function () {
+          var t = root.dataset.theme;
+          var dark = t ? t === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;
+          // cycle: current -> its opposite -> back to system on the third click
+          var next = !t ? (dark ? 'light' : 'dark') : (t === 'dark' ? 'light' : null);
+          if (next) root.dataset.theme = next; else delete root.dataset.theme;
+          try { if (next) localStorage.setItem('theme', next); else localStorage.removeItem('theme'); } catch (e) {}
+          label();
+          document.dispatchEvent(new CustomEvent('themechange'));
+        });
+        label();
+      })();
+    </script><script type="module">(()=>{let e=document.querySelector(`[data-ch-canvas]`),t=e?.parentElement;if(!e||!t)return;let n=matchMedia(`(prefers-reduced-motion: reduce)`);if(n.matches)return;let r=e.getContext(`2d`,{alpha:!1});if(!r)return;let i=Math.max(24,Math.min(160,Math.round(320*t.clientHeight/Math.max(1,t.clientWidth)))),a=320*i;e.width=320,e.height=i;let o=new Float32Array(a),s=new Float32Array(a);for(let e=0;e<a;e++)o[e]=.5*(Math.random()-.5);let c=r.createImageData(320,i),l=c.data,u=[237,244,246],d=[127,179,191],f=t=>{e.style.color=t;let n=getComputedStyle(e).color.match(/[\d.]+/g);return n?n.slice(0,3).map(Number):null},p=()=>{u=f(`var(--wash)`)??u,d=f(`var(--contour)`)??d,e.style.color=``};p(),document.addEventListener(`themechange`,p),matchMedia(`(prefers-color-scheme: dark)`).addEventListener(`change`,p);let m=(e,t,n,r)=>{let o=n===0?t+320-1:t-1,s=n===319?t-320+1:t+1,c=r===0?t+a-320:t-320,l=r===i-1?t-a+320:t+320;return e[o]+e[s]+e[c]+e[l]-4*e[t]},h=()=>{for(let e=0,t=0;e<i;e++)for(let n=0;n<320;n++,t++){let r=o[t];s[t]=r*r*r-r-1.5*m(o,t,n,e)}for(let e=0,t=0;e<i;e++)for(let n=0;n<320;n++,t++)o[t]+=.016*m(s,t,n,e)},g=0,_=()=>{let e=Math.random()*320,t=Math.random()*i,n=10+Math.random()*18;for(let r=0;r<i;r++)for(let i=0;i<320;i++){let a=Math.min(Math.abs(i-e),320-Math.abs(i-e)),s=r-t;a*a+s*s<n*n&&(o[r*320+i]=.6*o[r*320+i]+.5*(Math.random()-.5))}},v=()=>{for(let e=0,t=0;e<a;e++,t+=4){let n=(o[e]+1)*.5;n=n<0?0:n>1?1:n,n=n*n*(3-2*n),l[t]=u[0]+(d[0]-u[0])*n,l[t+1]=u[1]+(d[1]-u[1])*n,l[t+2]=u[2]+(d[2]-u[2])*n,l[t+3]=255}r.putImageData(c,0,0)},y=!0,b=0,x=0,S=t=>{if(b=0,!(!y||document.hidden||n.matches)){if(t-x>28){x=t;for(let e=0;e<6;e++)h();g+=6,g%1200==0&&_(),v(),e.classList.contains(`live`)||e.classList.add(`live`)}b=requestAnimationFrame(S)}},C=()=>{!b&&y&&!document.hidden&&!n.matches&&(b=requestAnimationFrame(S))};new IntersectionObserver(e=>{y=e.some(e=>e.isIntersecting),C()}).observe(t),document.addEventListener(`visibilitychange`,C),n.addEventListener(`change`,()=>{n.matches?e.classList.remove(`live`):C()});for(let e=0;e<900;e++)h();C()})();</script></body></html>
