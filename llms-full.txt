@@ -1,0 +1,714 @@
+# Jia Zhao — publications
+
+Source: https://zhaojia.net/publications
+
+## Optimizing algae biofilm growth in wastewater treatment using predictive mathematical models
+
+- Authors: G. B. Jones, D. Ellis, Z. Zhang, J. Zhao, R. C. Sims
+- Venue: Contemporary Research in Mathematical Biology: Modeling, Computation and Analysis (2027)
+- Page: https://zhaojia.net/publications/2023-CRMB-Chapter
+
+Abstract: Microalgal biofilms are comprised of a syntrophic consortium of microalgae and other microorganisms embedded within an extracellular matrix. Despite significant processes in the application of microalgal biofilms in wastewater treatment, mechanistic understanding and optimization of microalgal biomass yield and productivity under environmental constraints is still lacking. This paper identifies theoretical insights on this challenging biological problem by leveraging novel mathematical and computational tools. In particular, through a computational mathematical model to advance the understanding of microalgal biofilm growth kinetics of under environmental constraints through a systematic parameter study. Moreover, design of algae biofilm reactors for optimal biomass yield and productivity in wastewater treatment under different environments is explored. The proposed model could be further calibrated to generate reliable predictions that can improve the design, operation, and management of microalgal biofilms in wastewater treatment.
+
+## A new class of decoupled and energy-stable numerical schemes for the binary phase-field crystal model
+
+- Authors: X. Zhang, J. Zhao, D. Yang, M. Jiang
+- Venue: Journal of Scientific Computing 109, 104 (2026)
+- DOI: https://doi.org/10.1007/s10915-026-03499-y
+- Page: https://zhaojia.net/publications/2026-JSC-OperatorSplitting-PFC
+
+Abstract: In this paper, we introduce a new class of energy-stable, fully decoupled numerical schemes for the binary phase-field crystal (BPFC) model, which is governed by a pair of coupled sixth-order Cahn--Hilliard-type PDEs. The key idea is to split the mobility operator using an operator splitting method. Our method decouples the two phase variables at each time step, significantly reducing computational complexity while preserving unconditional energy stability. We rigorously establish energy dissipation for both first- and second-order accurate schemes in time. Numerical convergence tests confirm the expected temporal accuracy. A series of numerical examples on regular domains, irregular geometries, surfaces, and 3D domains demonstrates the robustness and flexibility of the proposed schemes in capturing complex phase transitions in binary colloidal crystals. The results demonstrate the applicability of the proposed schemes to the BPFC model for simulating multi-component crystalline structures across a range of model parameters and domain geometries.
+
+## Relaxed Lagrange multiplier (RLM) schemes for phase field models preserving the relaxed original energy dissipation law
+
+- Authors: X. Jing, J. Zhao
+- Venue: Journal of Computational Physics 567, 115316 (2026)
+- DOI: https://doi.org/10.1016/j.jcp.2026.115316
+- arXiv: https://arxiv.org/abs/2607.00355
+- Page: https://zhaojia.net/publications/2026-JCP-RLM
+
+Abstract: Phase-field models are typically derived from variational principles for a free-energy functional and are widely used to simulate complex multiphase phenomena in science and engineering. A central goal in designing numerical schemes for these models is to preserve the underlying energy-dissipation law. In this paper, we propose a class of relaxed Lagrange multiplier (RLM) schemes for phase field models. In contrast to popular scalar auxiliary variable (SAV) and invariant energy quadratization (IEQ) methods, which dissipate a modified energy involving auxiliary variables, the RLM schemes dissipate a relaxed version of the original energy and closely track the original energy dissipation rate. Compared with the classical Lagrange multiplier (LM) approach, the RLM schemes ensure that the resulting discrete system is uniquely solvable over a broad range of time steps. The key idea is to augment the LM formulation with a relaxation term, yielding a scalar quadratic equation for the multiplier with an explicit closed-form solution. The resulting schemes are linear and efficient because each time step requires solving only two linear systems with constant coefficients, at a cost comparable to that of SAV schemes. We construct both first-order and second-order variants and prove their energy stability. Numerical experiments verify the expected convergence rates and demonstrate that the RLM schemes accurately capture interface dynamics.
+
+## Second-order linear energy-stable relaxed Lagrange multiplier (RLM) schemes for Cahn--Hilliard--Navier--Stokes phase-field models
+
+- Authors: X. Zhang, J. Zhao, M. Jiang
+- Venue: Computer Methods in Applied Mechanics and Engineering 461, 119179 (2026)
+- DOI: https://doi.org/10.1016/j.cma.2026.119179
+- Page: https://zhaojia.net/publications/2026-CMAME-1
+
+Abstract: We propose a new class of second-order, linear, unconditionally energy-stable schemes for the Cahn--Hilliard--Navier--Stokes (CHNS) system. A single scalar Lagrange multiplier is introduced to enforce the discrete energy dissipation law for the coupled system. At each time step, the phase-field variables, chemical potential, and velocity are obtained by solving four independent linear equations, after which the multiplier is updated via a single scalar quadratic equation with an explicit closed-form solution. This contrasts with other existing numerical schemes for the CHNS system. We provide rigorous proofs that unconditional energy stability holds for the proposed schemes. Numerical experiments are then presented to confirm second-order temporal accuracy. Compared with other existing numerical schemes for the CHNS system, our schemes achieve better or comparable accuracy and efficiency.
+
+## Linearized supplementary variable method (LSVM) for thermodynamically consistent partial differential equations
+
+- Authors: Q. Hong, J. Zhao, Y. Gong
+- Venue: Computer Methods in Applied Mechanics and Engineering 461, 119251 (2026)
+- DOI: https://doi.org/10.1016/j.cma.2026.119251
+- Page: https://zhaojia.net/publications/2026-CMAME-2
+
+Abstract: [1] Thermodynamically consistent partial differential equations (TCPDEs) arise broadly in science and engineering. Preserving their energy dissipation structure at the discrete level is important for robustness, but is computationally challenging due to the stiff nonlinearities in TCPDEs. The difficulty grows when the mobility operator is state-dependent. In this setting, reformulation-based approaches such as IEQ and SAV typically yield variable-coefficient linear systems and lose their main computational advantage. We propose a linearized supplementary variable method (LSVM) for TCPDEs with a broad class of state-dependent mobilities that admit a splitting into a constant-coefficient core and a state-dependent remainder. The method introduces a balancing mechanism that enforces the energy law. The resulting second-order Crank--Nicolson and BDF2 schemes are constant-coefficient and linear, requiring only the solution of a small number of linear problems with a fixed, prefactorable operator, plus an additional 2  2 linear system per time step. We prove energy-law preservation and unique solvability. Numerical experiments on the Gross--Pitaevskii equation, the molecular beam epitaxy model with slope selection, and the Cahn--Hilliard equation with variable mobility show that the proposed schemes permit significantly larger time steps than many existing implicit methods, while maintaining comparable accuracy. We observe substantial efficiency gains in all test problems.
+
+## Operator splitting decoupled energy-stable numerical schemes for phase field grain growth models
+
+- Authors: D. Yang, J. Zhao, X. Zhang, M. Jiang
+- Venue: Journal of Computational Physics 544, 114405 (2026)
+- DOI: https://doi.org/10.1016/j.jcp.2025.114405
+- Page: https://zhaojia.net/publications/2026-JCP-Operator-Splitting
+
+Abstract: Phase-field methods have been widely employed to study grain growth in materials science. These grain-growth phase-field models are typically derived from variational principles, which ensure thermodynamic consistency and energy dissipation properties. Numerical discretizations that inherit these properties are known as energy-stable or structure-preserving schemes. However, existing energy-stable schemes for phase-field grain-growth models typically require solving fully coupled systems, which are computationally expensive, especially when the number of grains is large. In this paper, we develop a class of computationally efficient, fully decoupled numerical schemes based on operator splitting techniques. We present this decoupling idea by integrating it with several existing energy-stable strategies, including Energy Quadratization (EQ), Relaxed Energy Quadratization (REQ), the stabilization method, and the convex splitting method. The resulting schemes are unconditionally energy-stable, i.e., they satisfy a discrete energy dissipation law without restrictions on the time-step sizes. The proposed schemes are efficient because they only require updating each grain through small, independent subproblems at each time step. We present first and second-order formulations and provide rigorous energy analyses. Numerical convergence tests and benchmark examples are presented to validate the accuracy, efficiency, and robustness of our proposed decoupled numerical methods for simulating large grain systems.
+
+## Quantum rating framework
+
+- Authors: Y. Zhang, J. Zhao, G. Thompson, L. Guadagnuolo, M. I. Daley
+- Venue: U.S. Patent 12,632,813 B2 (2026)
+- Page: https://zhaojia.net/publications/US20230259853A1
+
+## Replicator dynamics and behavior-augmented multiscale epidemic modeling
+
+- Authors: J. Wan, Q. Liu, K. Zacks, J. Zhao, G. Ichinose, M. Small, C. Cheng
+- Venue: Chaos 35, 123128 (2025)
+- DOI: https://doi.org/10.1063/5.0297383
+- Page: https://zhaojia.net/publications/2025-Chaos
+
+Abstract: This study presents a multiscale modeling framework that integrates stochastic integrate-and-fire dynamics, networked replicator dynamics, and a behavior-augmented SEIRS model to simulate the interplay between agent behaviors and infection spread. Traditional compartmental epidemiological models often overlook behavioral adaptations and network complexity that underlie disease transmission. In contrast, our approach captures the stochastic acquired viral load, reflecting how repeated exposures increase the risk of infection, while dynamically 15 December 2025 15:08:39 modeling the agent's protective behaviors as they adapt to perceived risks, imitation influence, and aggregate costs. The integration of these components allows the model to explicitly capture synchronization between behavioral adaptation and infection prevalence. Simulations reveal that this synchronized feedback can give rise to recurrent PLEASE CITE THIS ARTICLE AS DOI: 10.1063/5.0297383 outbreaks, in which declining risk perception triggers a resurgence. More specifically, the integrate-and-fire mechanism buffers abrupt transitions, smoothing epidemic waves, while information delays exacerbate fluctuations. However, elevated risk awareness mitigates these disruptions by sustaining proactive behavior. By bridging evolutionary game theory, network science, and epidemiological modeling, this framework demonstrates that epidemic control depends not only on biological parameters but also on the timing, adaptation, and synchronization of collective behavior. Our findings underscore three critical components for epidemic control: timely communication, risk-aware policies, and feedback-responsive interventions. These strategies can stabilize disease dynamics and improve preparedness for future pandemics. Virus spread is driven not only by biology but also by human behavior. When a threat arises, people adopt I. INTRODUCTION protective behaviors such as mask-wearing and social Measles cases in the U.S. have recently reached a distancing, but as perceived risk declines, vigilance three-decade high, driven largely by an outbreak that often fades, enabling resurgence. This study began in West Texas and has since spread to other states1– introduces a novel framework that integrates 3. This surge threatens the nation’s measles-elimination infection dynamics with social behavior, treating status and underscores the need to revisit lessons from humans as active agents shaping the epidemic rather COVID-19, applying pandemic-era insights to than passive victims.
+
+## Auxiliary relaxation method to derive thermodynamically consistent phase field models with constraints and structure preserving numerical approximations
+
+- Authors: Q. Hong, Z. Zhang, J. Zhao
+- Venue: Journal of Computational Physics 522, 113598 (2025)
+- DOI: https://doi.org/10.1016/j.jcp.2024.113598
+- Page: https://zhaojia.net/publications/2025-JCP-ARM
+
+Abstract: In this paper, we introduce a novel approach for formulating phase field models with constraints. The main idea is to introduce auxiliary variables that regularize and gradually dissipate constraint deviations of the phase variables, which we name the auxiliary relaxation method. It integrates seamlessly with the energy variational framework to ensure thermodynamic consistency in the resulting phase field models. Unlike traditional penalty methods, which introduce high stiffness due to large penalty parameters to enforce constraints in phase field models, our approach reduces system stiffness, allowing larger time step sizes when solving phase field models with constraints numerically, thus improving numerical accuracy and efficiency. We demonstrate the effectiveness and robustness of the proposed auxiliary relaxation method by applying it across several scenarios to derive thermodynamically consistent phase field models with constraints. Furthermore, we introduce a general second-order implicit-explicit Crank-Nicolson scheme, combining the relaxed scalar auxiliary variable method with a stabilization technique to solve these models. Through extensive numerical tests, we validate the capability of our modeling and numerical framework to reliably simulate complex dynamics governed by phase field equations with constraints.
+
+## General numerical framework to derive structure preserving reduced order models for thermodynamically consistent reversible-irreversible PDEs
+
+- Authors: Z. Zhang, J. Zhao
+- Venue: Journal of Computational Physics 521, 113562 (2025)
+- DOI: https://doi.org/10.1016/j.jcp.2024.113562
+- arXiv: https://arxiv.org/abs/2312.02363
+- Page: https://zhaojia.net/publications/2025-JCP-ROM
+
+Abstract: In this paper, we propose a general numerical framework to derive structure-preserving reduced-order models for thermodynamically consistent PDEs. Our numerical framework has two primary features: (a) a systematic way to extract reduced-order models for thermodynamically consistent PDE systems while maintaining their inherent thermodynamic principles and (b) a general process to derive accurate, efficient, and structure-preserving numerical algorithms to solve these reduced-order models. The platform's generality extends to various PDE systems governed by embedded thermodynamic laws, offering a unique approach from several perspectives. First, it utilizes the generalized Onsager principle to transform the thermodynamically consistent PDE system into an equivalent form, where the free energy of the transformed system takes a quadratic form in terms of the state variables. This transformation is known as energy quadratization (EQ). Through EQ, we gain a novel perspective on deriving reduced-order models that continue to respect the energy dissipation law. Secondly, our proposed numerical approach automatically provides algorithms to discretize these reduced-order models. The proposed algorithms are always linear, easy to implement and solve, and uniquely solvable. Furthermore, these algorithms inherently ensure the thermodynamic laws. Our platform offers a distinctive approach for deriving structure-preserving reduced-order models for a wide range of PDE systems with underlying thermodynamic principles.
+
+## Algae biofilm reactors
+
+- Authors: R. C. Sims, G. B. Jones, P. Heck, J. Judd, N. Prasad, J. Zhao
+- Venue: Biofilm Reactors (2025)
+- Page: https://zhaojia.net/publications/2025-wef-chapter-r
+
+## Unconditionally energy-stable decoupled schemes for binary phase field crystal models using staggered temporal grids
+
+- Authors: X. Zhang, M. Jiang, J. Zhao
+- Venue: Applied Mathematics Letters 171, 109687 (2025)
+- DOI: https://doi.org/10.1016/j.aml.2025.109687
+- Page: https://zhaojia.net/publications/2025-AML
+
+Abstract: [1] The binary phase field crystal (BPFC) model has been widely used to study alloy systems and material mixtures. However, most existing energy-stable numerical schemes for the BPFC model require solving coupled nonlinear systems at every time step, which are computationally expensive and often face convergence issues. Moreover, the existence and uniqueness of solutions to these numerical schemes often have strict restrictions on the time step size. To address these issues, we propose a novel, fully decoupled, unconditionally energy-stable time integration scheme for the BPFC model. The key idea is to discretize the two phase field variables on staggered temporal grids, with one on an integer mesh and the other on a half-integer (staggered) mesh. We rigorously prove its unconditional energy stability and verify its second-order accuracy through numerical convergence tests. Numerical simulations demonstrate the robustness and efficiency of the proposed scheme.
+
+## Discovery of governing equations with recursive deep neural networks
+
+- Authors: J. Mau, J. Zhao
+- Venue: Communications on Applied Mathematics and Computation 7, 239-263 (2025)
+- DOI: https://doi.org/10.1007/s42967-023-00270-0
+- arXiv: https://arxiv.org/abs/2009.11500
+- Code: https://github.com/c2fd/RDNNs
+- Page: https://zhaojia.net/publications/2025-CAMC-Mau
+
+Abstract: Model discovery based on existing data has been one of the major focuses of mathematical modelers for decades. Despite tremendous achievements in model identification from adequate data, how to unravel the models from limited data is less resolved. This paper focuses on the model discovery problem when the data is not efficiently sampled in time, which is common due to limited experimental accessibility and labor/resource constraints. Specifically, we introduce a recursive deep neural network (RDNN) for data-driven model discovery. This recursive approach can retrieve the governing equation efficiently and significantly improve the approximation accuracy by increasing the recursive stages. In particular, our proposed approach shows superior power when the existing data are sampled with a large time lag, from which the traditional approach might not be able to recover the model well. Several examples of dynamical systems are used to benchmark this newly proposed recursive approach. Numerical comparisons confirm the effectiveness of this recursive neural network for model discovery. The accompanying codes are available at https://github.com/c2fd/RDNNs
+
+## Linear relaxation method with regularized energy reformulation for phase field models
+
+- Authors: J. Zhang, X. Guo, M. Jiang, T. Zhou, J. Zhao
+- Venue: Journal of Computational Physics 515, 113225 (2024)
+- DOI: https://doi.org/10.1016/j.jcp.2024.113225
+- Page: https://zhaojia.net/publications/2024-JCP-RRER
+
+Abstract: In this paper, we establish a novel linear relaxation method with regularized energy reformulation for phase field models, which we name the RRER method. We employ the molecular beam epitaxy (MBE) model and the phase-field crystal (PFC) model as test beds, along with several coupled phase field models, to illustrate the concept. Our proposed RRER strategy is applicable to a broad class of phase field models that can be derived through energy variation. The RRER method consists of two major steps. First, we introduce regularized auxiliary variables to reformulate the original phase field models into equivalent forms where the free energy is transformed under the auxiliary variables. Then, we discretize the reformulated PDE model under these variables on a staggered time mesh for the phase field models. We incorporate the energy reformulation idea in the first step and the linear relaxation concept in the second step to derive a general numerical algorithm for phase field models that is linear and second-order accurate. Our approach differs from the classical invariant energy quadratization (IEQ) and scalar auxiliary variable (SAV) approaches, as we don't need to take time derivatives for the auxiliary variables. The resulting schemes are linear, i.e., only linear algebraic systems need to be solved at each time step. Rigorous theoretical analysis demonstrates that these resulting schemes satisfy the modified discrete energy dissipation laws and preserve the discrete mass conservation for the PFC and MBE models. Furthermore, we present numerical results to demonstrate the effectiveness of our method in solving phase field models.
+
+## Computational modeling of microalgal biofilm growth in heterogeneous rotating algal biofilm reactors (RABRs) for wastewater treatment
+
+- Authors: G. B. Jones, R. C. Sims, J. Zhao
+- Venue: Applied Mathematical Modelling 131, 487-504 (2024)
+- DOI: https://doi.org/10.1016/j.apm.2024.04.021
+- Page: https://zhaojia.net/publications/2024-AMM-AlgalBiofilm
+
+Abstract: Microalgae biofilms have been demonstrated to recover nutrients from wastewater and serve as biomass feedstock for bioproducts. However, there is a need to develop a platform to quantitatively describe microalgae biofilm production, which can provide guidance and insights for improving biomass areal productivity and nutrient uptake efficiency. This paper proposes a unified experimental and theoretical framework to investigate algae biofilm growth on a rotating algae biofilm reactor (RABR). The experimental laboratory setups are used to conduct controlled experiments on testing environmental and operational factors for RABRs. We propose a differential-integral equation-based mathematical model for microalgae biofilm cultivation guided by laboratory experimental findings. The predictive mathematical model development is coordinated with laboratory experiments of biofilm areal productivity associated with ammonia and inorganic phosphorus uptake by RABRs. The unified experimental and theoretical tool is used to investigate the effects of RABR rotating velocity, duty cycle, and light intensity on algae biofilm growth, areal productivity, nutrient uptake efficiency, and energy efficiency in wastewater treatment. Our framework indicates that maintaining a reasonable light intensity range results in better biomass areal productivity and nutrient uptake efficiency. Our framework also indicates that faster RABR rotation benefits biomass areal productivity. However, maximizing the nutrient uptake efficiency requires a reasonably low RABR rotating speed. Meanwhile, energy efficiency is strongly correlated with RABR rotating speed and duty cycle.
+
+## A physics-informed structure-preserving numerical scheme for the phase-field hydrodynamic model of ternary fluid flows
+
+- Authors: Q. Hong, Y. Gong, J. Zhao
+- Venue: Numerical Mathematics: Theory, Methods and Applications 16, 565-596 (2023)
+- DOI: https://doi.org/10.4208/nmtma.oa-2023-0007
+- Page: https://zhaojia.net/publications/2023-NMTMA-Hong
+
+Abstract: Phase-field models are widely used to investigate multiphase flow dynamics. Given the complexity and strong nonlinearity, designing accurate, efficient, and stable numerical algorithms to solve these models has been an active research field for decades. This paper proposes a novel numerical scheme to solve the highly cited and used phase field hydrodynamic model for simulating ternary phase fluid flows. The main novelty is introducing a supplementary variable to reformulate the original problem into a constrained optimization problem. This reformulation leads to several advantages for our proposed numerical algorithms compared with many existing numerical techniques for solving this model. First, the developed schemes allow more straightforward calculations for the hydrodynamic phase-field models by solving a few decoupled Helmholtz or Poisson-type systems with a constant pre-computable coefficient matrix, remarkably reducing the computational cost. Secondly, the numerical schemes can maintain mass conservation and energy dissipation at the discrete level. Additionally, the developed scheme based on the second-order backward difference formula respects the original energy dissipation law that differs from many existing schemes, such as the IEQ, SAV, and Lagrange multiplier approaches for which a modified energy dissipation law is respected. Furthermore, rigorous proof of energy stability and practical implementation strategies are provided. We conduct adequate 2D and 3D numerical tests to demonstrate the proposed schemes' accuracy and effectiveness.
+
+## Linear relaxation schemes for the Allen-Cahn-type and Cahn-Hilliard-type phase field models
+
+- Authors: M. Jiang, J. Zhao
+- Venue: Applied Mathematics Letters 137, 108477 (2023)
+- DOI: https://doi.org/10.1016/j.aml.2022.108477
+- Page: https://zhaojia.net/publications/2023-AML
+
+Abstract: This letter introduces novel linear relaxation schemes for solving the phase field models, particularly the Allen-Cahn (AC) type and Cahn-Hilliard (CH) type equations. The proposed schemes differ from existing schemes for the phase field models in the literature. The resulting semi-discrete schemes are linear by discretizing the AC and CH models on staggered time meshes. Only a linear algebra problem needs to be solved at each time marching step after the spatial discretization. Furthermore, our proposed schemes are shown to be unconditionally energy stable, i.e., the numerical solutions respect energy dissipation laws without restriction on the time steps. Several numerical examples are provided to illustrate the power of the proposed linear relaxation schemes for solving phase field models.
+
+## Thermodynamically consistent hydrodynamic phase-field computational modeling for fluid-structure interaction with moving contact lines
+
+- Authors: Q. Hong, Y. Gong, J. Zhao
+- Venue: Journal of Computational Physics 492, 112409 (2023)
+- DOI: https://doi.org/10.1016/j.jcp.2023.112409
+- Page: https://zhaojia.net/publications/2023-JCP-Hong
+
+Abstract: This paper proposes a novel computational modeling approach to investigate the fluid-structure interactions with moving contact lines. By embracing the generalized Onsager principle, a coupled hydrodynamics and phase field system is introduced that can describe the fluid-structure interactions with moving contact lines in a thermodynamically consistent manner. The resulting partial differential equation (PDE) model consists of the Navier-Stokes equation and a nonlinear Allen-Cahn type equation. Volume conservation is enforced through an additional penalty term. A fully-discrete structure-preserving numerical scheme is proposed by combining several techniques to solve this coupled PDE system effectively and accurately. For the temporal discretization, we utilize the supplementary variable method for preserving the thermodynamic structure and the projection approach for reducing the problem size. Then, we use the finite difference method on the staggered grid for spatial discretization. Furthermore, we have rigorously proved that the proposed numerical scheme based on the second-order backward difference formula respects the original energy stability, i.e., the scheme is energy stable. Additionally, with the aid of the supplementary variable method, the resultant scheme can be transformed into a constrained optimization problem, where the solutions of the supplementary variables are the arguments of the objective function that reaches the optimality. Then the augmented Lagrangian method is introduced in part to bring robustness and efficiency to solving such a constrained optimization problem. Finally, various numerical simulations verify the model's capability and demonstrate the scheme's effectiveness, accuracy, and stability.
+
+## Experimental and theoretical investigations of rotating algae biofilm reactors (RABRs): Areal productivity, nutrient recovery, and energy efficiency
+
+- Authors: G. B. Jones, R. C. Sims, J. Zhao
+- Venue: Biotechnology and Bioengineering 120, 2865-2879 (2023)
+- DOI: https://doi.org/10.1002/bit.28451
+- Page: https://zhaojia.net/publications/2023-AlgalBiofilm
+
+Abstract: Microalgae biofilms have been demonstrated to recover nutrients from wastewater and serve as biomass feedstock for bioproducts. However, there is a need to develop a platform to quantitatively describe microalgae biofilm production, which can provide guidance and insights for improving biomass areal productivity and nutrient uptake efficiency. This paper proposes a unified experimental and theoretical framework to investigate algae biofilm growth on a rotating algae biofilm reactor (RABR). The experimental laboratory setups are used to conduct controlled experiments on testing environmental and operational factors for RABRs. We propose a differential-integral equation-based mathematical model for microalgae biofilm cultivation guided by laboratory experimental findings. The predictive mathematical model development is coordinated with laboratory experiments of biofilm areal productivity associated with ammonia and inorganic phosphorus uptake by RABRs. The unified experimental and theoretical tool is used to investigate the effects of RABR rotating velocity, duty cycle, and light intensity on algae biofilm growth, areal productivity, nutrient uptake efficiency, and energy efficiency in wastewater treatment. Our framework indicates that maintaining a reasonable light intensity range improves biomass areal productivity and nutrient uptake efficiency. Our framework also indicates that faster RABR rotation benefits biomass areal productivity. However, maximizing the nutrient uptake efficiency requires a reasonably low RABR rotating speed. Meanwhile, energy efficiency is strongly correlated with RABR rotating speed and duty cycle.
+
+## Numerical approximations of the Allen-Cahn-Ohta-Kawasaki (ACOK) equation with modified physics informed neural networks (PINNs)
+
+- Authors: J. Xu, J. Zhao, Y. Zhao
+- Venue: International Journal of Numerical Analysis and Modeling 20, 693-708 (2023)
+- DOI: https://doi.org/10.4208/ijnam2023-1030
+- arXiv: https://arxiv.org/abs/2207.04582
+- Page: https://zhaojia.net/publications/2023-IJNAM-Xu
+
+Abstract: The physics-informed neural networks (PINNs) has been widely utilized to numerically approximate PDE problems. While PINNs has achieved good results in producing solutions for many partial differential equations, studies have shown that it does not perform well on phase field models. In this paper, we partially address this issue by introducing a modified physics-informed neural networks. In particular, they are used to numerically approximate Allen-Cahn-Ohta-Kawasaki (ACOK) equation with a volume constraint. Technically, the inverse of Laplacian in the ACOK model presents many challenges to the baseline PINNs. To take the zero-mean condition of the inverse of Laplacian, as well as the volume constraint, into consideration, we also introduce a separate neural network, which takes the second set of sampling points in the approximation process. Numerical results are shown to demonstrate the effectiveness of the modified PINNs. An additional benefit of this research is that the modified PINNs can also be applied to learn more general nonlocal phase-field models, even with an unknown nonlocal kernel.
+
+## Chaos does not drive lower synchrony for intrinsically-induced population fluctuations
+
+- Authors: G. Grosklos, J. Zhao
+- Venue: Ecological Modelling 475, 110203 (2023)
+- DOI: https://doi.org/10.1016/j.ecolmodel.2022.110203
+- Page: https://zhaojia.net/publications/2023-EM
+
+## A remark on the invariant energy quadratization (IEQ) method for preserving the original energy dissipation laws
+
+- Authors: Z. Zhang, Y. Gong, J. Zhao
+- Venue: Electronic Research Archive 30, 701-714 (2022)
+- DOI: https://doi.org/10.3934/era.2022037
+- arXiv: https://arxiv.org/abs/2111.12920
+- Page: https://zhaojia.net/publications/2022-ERA-IEQ-Remark
+
+Abstract: In this letter, we revisit the invariant energy quadratization (IEQ) method and provide a new perspective on its ability to preserve the original energy dissipation laws. The IEQ method has been widely used to design energy stable numerical schemes for phase-field or gradient flow models. Although there are many merits of the IEQ method, one major disadvantage is that the IEQ method usually respects a modified energy law, where the modified energy is expressed in the auxiliary variables. Still, the dissipation laws in terms of the original energy are not guaranteed by the IEQ method. Using the widely-used Cahn-Hilliard equation as an example, we demonstrate that the Runge-Kutta IEQ method indeed can preserve the original energy dissipation laws for certain situations up to arbitrary high-order accuracy. Interested readers are encouraged to extend this idea to more general cases and apply it to other thermodynamically consistent models.
+
+## Linear energy stable numerical schemes for a general chemo-repulsive model
+
+- Authors: M. Jiang, J. Zhao, Q. Wang
+- Venue: Journal of Computational and Applied Mathematics 415, 114436 (2022)
+- DOI: https://doi.org/10.1016/j.cam.2022.114436
+- Page: https://zhaojia.net/publications/2022-JCAM-Jiang
+
+Abstract: We propose a unconditionally energy stable linear schemes for a chemo-repulsion model using the idea EQ.
+
+## A general framework to derive linear, decoupled and energy-stable schemes for reversible irreversible thermodynamically consistent models
+
+- Authors: J. Zhao
+- Venue: Computers & Mathematics with Applications 110, 91-109 (2022)
+- DOI: https://doi.org/10.1016/j.camwa.2021.12.011
+- arXiv: https://arxiv.org/abs/2103.02203
+- Page: https://zhaojia.net/publications/2022-CMA-Zhao
+
+## Improving the accuracy and consistency of the scalar auxiliary variable (SAV) method with relaxation
+
+- Authors: M. Jiang, Z. Zhang, J. Zhao
+- Venue: Journal of Computational Physics 456, 110954 (2022)
+- DOI: https://doi.org/10.1016/j.jcp.2022.110954
+- arXiv: https://arxiv.org/abs/2104.06620
+- Page: https://zhaojia.net/publications/2022-JCP
+
+## Numerical approximations of phase field models using a general class of linear time-integration schemes
+
+- Authors: L. Chen, Z. Zhang, J. Zhao
+- Venue: Communications in Computational Physics 30, 1290-1322 (2021)
+- DOI: https://doi.org/10.4208/cicp.oa-2020-0244
+- Page: https://zhaojia.net/publications/2021-CICP-Chen
+
+Abstract: In this paper, we develop a new class of linear time-integration schemes for phase field models. The newly proposed schemes extend the recently developed energy quadratization technique by introducing extra free parameters to further stabilize the schemes and improve their accuracy. The freshly proposed schemes have several advantages. First of all, they are rather generic such that they apply to most existing phase field models in the literature and thermodynamically consistent models in general. They are also linear in time, which means only a linear system needs to be solved during each time marching step. Thus, it significantly reduces the computational cost. Besides, they are unconditionally energy stable such that a larger time step size is practical. What is more, the solution existence and uniqueness in each time step is guaranteed without any dependence on the time step size. To demonstrate the generality of the proposed schemes, we apply them to several typical examples, including the widely-used molecular beam epitaxy (MBE) equation, the Cahn-Hilliard equation, and the diblock copolymer model. Numerical tests reveal that the proposed schemes are accurate and efficient. This new family of linear and unconditionally energy stable schemes sheds light on developing numerical approximations for phase field models in general.
+
+## Solving Allen-Cahn and Cahn-Hilliard equations using the adaptive physics informed neural networks
+
+- Authors: C. L. Wight, J. Zhao
+- Venue: Communications in Computational Physics 29, 930-954 (2021)
+- DOI: https://doi.org/10.4208/cicp.oa-2020-0086
+- arXiv: https://arxiv.org/abs/2007.04542
+- Page: https://zhaojia.net/publications/2021-CICP-PINN
+
+Abstract: Phase field models, in particular, the Allen-Cahn type and Cahn-Hilliard type equations, have been widely used to investigate interfacial dynamic problems. Designing accurate, efficient, and stable numerical algorithms for solving the phase field models has been an active field for decades. In this paper, we focus on using the deep neural network to design an automatic numerical solver for the Allen-Cahn and Cahn-Hilliard equations by proposing an improved physics informed neural network (PINN). Though the PINN has been embraced to investigate many differential equation problems, we find a direct application of the PINN in solving phase-field equations won't provide accurate solutions in many cases. Thus, we propose various techniques that add to the approximation power of the PINN. As a major contribution of this paper, we propose to embrace the adaptive idea in both space and time and introduce various sampling strategies, such that we are able to improve the efficiency and accuracy of the PINN on solving phase field equations. In addition, the improved PINN has no restriction on the explicit form of the PDEs, making it applicable to a wider class of PDE problems, and shedding light on numerical approximations of other PDEs in general.
+
+## A revisit of the energy quadratization method with a relaxation technique
+
+- Authors: J. Zhao
+- Venue: Applied Mathematics Letters 120, 107331 (2021)
+- DOI: https://doi.org/10.1016/j.aml.2021.107331
+- arXiv: https://arxiv.org/abs/2103.08855
+- Page: https://zhaojia.net/publications/2021-AML
+
+Abstract: This letter revisits the energy quadratization (EQ) method by introducing a novel and essential relaxation technique to improve its accuracy and consistency. The EQ method has witnessed significant popularity in the past few years. Though acknowledging its effectiveness in designing energy-stable schemes for thermodynamically consistent models, the primary known drawback is apparent, i.e., its respects a "modified" energy law represented by auxiliary variables instead of the original variables. Truncation errors are introduced during numerical calculations so that the numerical solutions of the auxiliary variables are no longer equivalent to their original continuous definitions. Even though the "modified" energy dissipation law is respected, the original energy dissipation law is not guaranteed. In this letter, we overcome this inconsistency by introducing a relaxation step, for which we named the relaxed-EQ (REQ) method. The computational cost of this relaxation step is negligible compared with the baseline EQ method. Meanwhile, the REQ method holds all the baseline EQ method's good properties, such as linearity and unconditionally energy stability. Then we apply the REQ method to several widely-used phase field models to highlight its effectiveness.
+
+## Discovering phase field models from image data with the pseudo-spectral physics informed neural networks
+
+- Authors: J. Zhao
+- Venue: Communications on Applied Mathematics and Computation 3, 357-369. (Special Section on Machine Learning for Scientific Computing) (2021)
+- DOI: https://doi.org/10.1007/s42967-020-00105-2
+- arXiv: https://arxiv.org/abs/2007.04535
+- Page: https://zhaojia.net/publications/2021-CAMC-RKFFT
+
+Abstract: In this paper, we introduce a new deep learning framework for discovering the phase field models from existing image data. The new framework embraces the approximation power of physics informed neural networks (PINN), and the computational efficiency of the pseudo-spectral methods, which we named pseudo-spectral PINN or SPINN. Unlike the baseline PINN, the pseudo-spectral PINN has several advantages. First of all, it requires less training data. A minimum of two snapshots with uniform spatial resolution would be adequate. Secondly, it is computationally efficient, as the pseudo-spectral method is used for spatial discretization. Thirdly, it requires less trainable parameters compared with the baseline PINN. Thus, it significantly simplifies the training process and assures less local minima or saddle points. We illustrate the effectiveness of pseudo-spectral PINN through several numerical examples. The newly proposed pseudo-spectral PINN is rather general, and it can be readily applied to discover other PDE-based models from image data.
+
+## The effects of simple density-dependent prey diffusion and refuge in a predator-prey system
+
+- Authors: L. Rodriguez Q., J. Zhao, L. F. Gordillo
+- Venue: Journal of Mathematical Analysis and Applications 498, 124983 (2021)
+- DOI: https://doi.org/10.1016/j.jmaa.2021.124983
+- arXiv: https://arxiv.org/abs/1912.06666
+- Page: https://zhaojia.net/publications/2021-JMAA
+
+Abstract: We study a spatial (two-dimensional) Rosenzweig-MacArthur model under the following assumptions: (1) prey spread follows a nonlinear diffusion rule, (2) preys have a refuge zone (sometimes called ``protection zone") where predators cannot enter, (3) predators move following linear diffusion. We present a bifurcation analysis for the system that shows the existence of positive solutions at the steady state. We complement the theoretical results with numerical computations and compare our results with those obtained in the case of having linear diffusion for the prey movement. Our results show that both models, with linear and nonlinear diffusion for the prey, have the same bifurcation point and the positive solution curves are virtually the same in a neighborhood of this point, but they get drastically different as the bifurcation parameter approaches to zero.
+
+## Second-order decoupled energy-stable schemes for Cahn-Hilliard-Navier-Stokes equations
+
+- Authors: J. Zhao, D. Han
+- Venue: Journal of Computational Physics 443, 110536 (2021)
+- DOI: https://doi.org/10.1016/j.jcp.2021.110536
+- arXiv: https://arxiv.org/abs/2103.02210
+- Page: https://zhaojia.net/publications/2021-JCP-Han
+
+## Second order linear decoupled energy dissipation rate preserving schemes for the Cahn-Hilliard-Extended-Darcy model
+
+- Authors: Y. Li, W. Yu, J. Zhao, Q. Wang
+- Venue: Journal of Computational Physics 444, 110561 (2021)
+- DOI: https://doi.org/10.1016/j.jcp.2021.110561
+- Page: https://zhaojia.net/publications/2021-JCP-Li
+
+Abstract: The thermodynamically consistent Cahn-Hilliard-Extended-Darcy (CHED) model has been used to describe the transient motion of a binary incompressible fluid flow in porous media. In this paper, we develop a series of linear, second-order, energy-dissipation-rate preserving numerical algorithms for the CHED model based on the energy quadratization strategy. We first extend the incompressible CHED model into a weakly compressible, thermodynamically consistent one using the generalized Onsager principle. Guided by the weakly compressible model, we then devise a series of linear, second-order, decoupled, semi-discrete, temporal algorithms in the spirit of the projection and the energy quadratization (EQ) method. The fully discrete algorithms are obtained by the use of the second-order finite difference method on staggered grids in space. We show that the obtained numerical algorithms respect the energy-dissipation-rate at the discrete level without any restrictions on the time step, making them unconditionally energy stable. Mesh refinement tests, coarsening dynamics of binary fluids, and the buoyancy-driven binary fluid motion in porous media are investigated numerically. The numerical results compare well with the results in the literature.
+
+## Second order linear thermodynamically consistent approximations to nonlocal phase field porous media models
+
+- Authors: W. Yu, Y. Li, J. Zhao, Q. Wang
+- Venue: Computer Methods in Applied Mechanics and Engineering 386, 114089 (2021)
+- DOI: https://doi.org/10.1016/j.cma.2021.114089
+- Page: https://zhaojia.net/publications/2021-CMAME
+
+Abstract: We derive incompressible and weakly compressible hydrodynamical models for binary fluid flows in porous media using one fluid multiple component formulations, guided by the generalized Onsager principle. These thermodynamically consistent models are named as the incompressible and weakly compressible nonlocal Allen-Cahn-Brinkman (NACB) and nonlocal Allen-Cahn-Darcy (NACD) model, respectively. These models are energy dissipative, consisting of a simplified force balance equation, continuity equation, and a volume-preserving, nonlocal Allen-Cahn equation for the phase field variable. Guided by the energy variational formulation of the models, we use the energy quadratization method to derive second-order, linear, coupled and decoupled, energy dissipation rate preserving, semi-discrete schemes in time for the models. We then apply second-order finite difference methods on staggered-grids in space to discretize the semi-discrete schemes to obtain fully discrete schemes. We explore the intrinsic relation between the decoupled schemes and the weakly compressible NACB model and prove that the linear systems resulted from the linear schemes are uniquely solvable. Mesh refinement tests are conducted to confirm the convergence rates. Then, benchmark examples of binary fluid flow motion in porous media with and without gravity are presented to showcase the schemes' accuracy and usefulness.
+
+## Arbitrarily high order structure-preserving algorithms for the Allen-Cahn model with a nonlocal constraint
+
+- Authors: Q. Hong, Y. Gong, J. Zhao, Q. Wang
+- Venue: Applied Numerical Mathematics 170, 321-339 (2021)
+- DOI: https://doi.org/10.1016/j.apnum.2021.08.002
+- Page: https://zhaojia.net/publications/2021-ANM
+
+Abstract: We develop fully discrete structure-preserving numerical algorithms of arbitrarily high order for the Allen-Cahn model with a nonlocal constraint subject to the Neumann boundary condition. Using the energy quadratization methodology, we reformulate this model into an equivalent system with a quadratic free energy. For the reformulated model, we first apply a Cosine pseudo-spectral approximation in space to arrive at a semi-discrete system that inherits the volume conservation and energy dissipative property; then we use two distinct temporal discretization methods to derive fully discrete schemes of arbitrarily higher order. One is based on the symplectic Runge-Kutta (RK) method and the other is a linearized Runge-Kutta method by the prediction-correction strategy. The fully discrete schemes preserve both volume and the energy dissipative property. In addition, we show that the liner system resulting from the schemes warrants the unique solvability. The schemes can be implemented efficiently using the discrete Cosine transform (DCT). Extensive numerical examples are presented to show the efficiency and accuracy of the newly proposed methods.
+
+## Energy-production-rate preserving numerical approximations to network generating partial differential equations
+
+- Authors: Q. Hong, J. Zhao, Q. Wang
+- Venue: Computers & Mathematics with Applications 84, 148-165 (2021)
+- DOI: https://doi.org/10.1016/j.camwa.2020.11.014
+- Page: https://zhaojia.net/publications/2021-CMA
+
+Abstract: We recast a network generating partial differential equation system into a singular limit of a dissipative gradient flow model, which not only identifies the consistent physical boundary conditions but also generates networks. We then develop a set of structure-preserving numerical algorithms for the gradient flow model. Using the energy quadratization (EQ) method, we reformulate the gradient flow system into an equivalent one with a quadratic energy density by introducing auxiliary variables. Subsequently, we devise a series of fully discrete, linear, second order, energy-production-rate preserving, finite difference algorithms to solve the EQ-reformulated PDE system subject to various compatible boundary conditions. We show that the numerical schemes are energy-production-rate preserving for any time steps. Numerical convergence tests are given to validate the accuracy of the fully discrete schemes. Several 2D numerical examples are given to demonstrate the capability of the schemes in predicting network generating phenomena with the gradient flow PDE system, especially, the original network generating PDE model.
+
+## A patient specific forecasting model for human albumin based on deep neural networks
+
+- Authors: C. Lei, Y. Wang, J. Zhao, K. Li, H. Jiang, Q. Wang
+- Venue: Computer Methods and Programs in Biomedicine 196, 105555 (2020)
+- DOI: https://doi.org/10.1016/j.cmpb.2020.105555
+- Page: https://zhaojia.net/publications/2020-CMPB-DNN
+
+Abstract: Background and Objectives: Hypoalbuminemia can be life threatening among critically ill patients. In this study, we develop a patient-specific monitoring and forecasting model based on deep neural networks to predict concentrations of albumin and a set of selected biochemical markers for critically ill patients in real-time. Methods: Under the assumption that metabolism of a patient follows a patient-specific dynamical process
+
+## Structure-preserving numerical approximations to a non-isothermal hydrodynamic model of binary fluid flows
+
+- Authors: S. Sun, J. Li, J. Zhao, Q. Wang
+- Venue: Journal of Scientific Computing 83, 50 (2020)
+- DOI: https://doi.org/10.1007/s10915-020-01229-6
+- Page: https://zhaojia.net/publications/2020-JSC
+
+Abstract: We present two second order, structure-preserving numerical schemes for a newly derived thermodynamically consistent, non-isothermal hydrodynamical phase field model for incompressible binary viscous fluid flows. The schemes preserve the total volume of each fluid phase, the total energy balance and the positive entropy production rate. The entropy quadratization approach is employed to devise the two semi-discrete numerical schemes in time, preserving both the total energy balance and the positive entropy production rate. The first scheme is weakly nonlinear, which is solved using iterative methods aided by fast Fourier algorithms. The second scheme is fully linear, in which a time-dependent supplementary variable is added to preserve the positive entropy production rate. The semi-discrete schemes are discretized in space by a finite difference method on staggered grids subsequently to yield two fully discrete schemes. The mesh refinement is carried out to confirm the desired spatial and temporal order of the schemes and several numerical examples are given to show hydrodynamic as well as thermal effects in resolving thermocapillary convection near the fluid interface in the incompressible binary viscous fluid flow.
+
+## Arbitrarily high-order unconditionally energy stable SAV schemes for gradient flow models
+
+- Authors: Y. Gong, J. Zhao, Q. Wang
+- Venue: Computer Physics Communications 249, 107033 (2020)
+- DOI: https://doi.org/10.1016/j.cpc.2019.107033
+- arXiv: https://arxiv.org/abs/1907.04254
+- Page: https://zhaojia.net/publications/2020-CPC
+
+Abstract: In this paper, we propose a novel family of high-order numerical schemes for the gradient flow models based on the scalar auxiliary variable (SAV) approach, which is named the high-order scalar auxiliary variable (HSAV) method. The newly proposed schemes could be shown to reach arbitrarily high order in time while preserving the energy dissipation law without any restriction on the time step size (i.e., unconditionally energy stable). The HSAV strategy is rather general that it does not depend on the specific expression of the effective free energy, such that it applies to a class of thermodynamically consistent gradient flow models arriving at semi-discrete high-order energy-stable schemes. We then employ the Fourier pseudospectral method for spatial discretization. The fully discrete schemes are also shown to be unconditionally energy stable. Furthermore, we present several numerical experiments on several widely-used gradient flow models, to demonstrate the accuracy, efficiency and unconditionally energy stability of the HSAV schemes. The numerical results verify that the HSAV schemes can reach the expected order of accuracy, and it allows a much larger time step size to reach the same accuracy than the standard SAV schemes.
+
+## A novel second-order linear scheme for the Cahn-Hilliard-Navier-Stokes equations
+
+- Authors: L. Chen, J. Zhao
+- Venue: Journal of Computational Physics 423, 109782 (2020)
+- DOI: https://doi.org/10.1016/j.jcp.2020.109782
+- Page: https://zhaojia.net/publications/2020-JCP-Linear-EQ
+
+## Arbitrarily high-order linear energy stable schemes for gradient flow models
+
+- Authors: Y. Gong, J. Zhao, Q. Wang
+- Venue: Journal of Computational Physics 419, 109610 (2020)
+- DOI: https://doi.org/10.1016/j.jcp.2020.109610
+- Page: https://zhaojia.net/publications/2020-JCP-Leap-frog
+
+## A non-uniform time-stepping convex splitting scheme for the time-fractional Cahn-Hilliard equation
+
+- Authors: J. Zhang, J. Zhao, J. R. Wang
+- Venue: Computers & Mathematics with Applications 80, 837-850 (2020)
+- DOI: https://doi.org/10.1016/j.camwa.2020.04.031
+- arXiv: https://arxiv.org/abs/2006.02061
+- Page: https://zhaojia.net/publications/2020-CMA-adaptive-fractional
+
+Abstract: In this paper, a non-uniform time-stepping convex-splitting numerical algorithm for solving the widely used time-fractional Cahn-Hilliard equation is introduced. The proposed numerical scheme employs the L1^+ formula for discretizing the time-fractional derivative and a second-order convex-splitting technique to deal with the non-linear term semi-implicitly. Then the pseudospectral method is utilized for spatial discretization. As a result, the fully discrete scheme has several advantages: second-order accurate in time, spectrally accurate in space, uniquely solvable, mass preserving, and unconditionally energy stable. Rigorous proofs are given, along with several numerical results to verify the theoretical results, and to show the accuracy and effectiveness of the proposed scheme. Also, some interesting phase separation dynamics of the time-fractional Cahn-Hilliard equation has been investigated.
+
+## Arbitrarily high-order unconditionally energy stable schemes for thermodynamically consistent gradient flow models
+
+- Authors: Y. Gong, J. Zhao, Q. Wang
+- Venue: SIAM Journal on Scientific Computing 42, B135-B156 (2020)
+- DOI: https://doi.org/10.1137/18m1213579
+- arXiv: https://arxiv.org/abs/1907.05341
+- Page: https://zhaojia.net/publications/2020-SISC
+
+Abstract: We present a systematical approach to developing arbitrarily high order, unconditionally energy stable numerical schemes for thermodynamically consistent gradient flow models that satisfy energy dissipation laws. Utilizing the energy quadratization (EQ) method, We formulate the gradient flow model into an equivalent form with a corresponding quadratic free energy functional. Based on the equivalent form with a quadratic energy, we propose two classes of energy stable numerical approximations. In the first approach, we use a prediction-correction strategy to improve the accuracy of linear numerical schemes. In the second approach, we adopt the Gaussian collocation method to discretize the equivalent form with a quadratic energy, arriving at an arbitrarily high-order scheme for gradient flow models. Schemes derived using both approaches are proved rigorously to be unconditionally energy stable. The proposed schemes are then implemented in four gradient flow models numerically to demonstrate their accuracy and effectiveness. Detailed numerical comparisons among these schemes are carried out as well. These numerical strategies are rather general so that they can be readily generalized to solve any thermodynamically consistent PDE models.
+
+## Energy-stable predictor–corrector schemes for the Cahn-Hilliard equation
+
+- Authors: J. Zhang, M. Jiang, Y. Gong, J. Zhao
+- Venue: Journal of Computational and Applied Mathematics 376, 112832 (2020)
+- DOI: https://doi.org/10.1016/j.cam.2020.112832
+- Page: https://zhaojia.net/publications/2020-JCAM-predictor-corrector
+
+Abstract: In this paper, we construct a new class of predictor-corrector time-stepping schemes for the Cahn-Hilliard equation, which are linear, second-order accurate in time, unconditionally energy stable, and uniquely solvable. Then, we present the stability and error estimates of the semi-discrete numerical schemes for solving the Cahn-Hilliard equation with general nonlinear bulk potentials. The semi-discrete scheme is further discretized using the compact central finite difference method. Several numerical examples are shown to verify the theoretical results. In particular, the numerical simulations show that the predictor-corrector schemes reach the second-order convergence rate at relatively larger time-step sizes than the classical linear schemes. The numerical strategies and theoretical tools developed in this article could be readily applied to study other phase-field models or models that can be cast as gradient flow problems.
+
+## Error analysis of full-discrete invariant energy quadratization schemes for the Cahn-Hilliard type equation
+
+- Authors: J. Zhang, J. Zhao, Y. Gong
+- Venue: Journal of Computational and Applied Mathematics 372, 112719 (2020)
+- DOI: https://doi.org/10.1016/j.cam.2020.112719
+- Page: https://zhaojia.net/publications/2020-JCAM-Error-estimate
+
+Abstract: In this paper, we present the error analysis for a fully discrete scheme of the Cahn-Hilliard type equation. The numerical schedule is developed by first transforming the Cahn-Hilliard type equation into an equivalent form using the invariant energy quadratization (IEQ) technique. Then the equivalent form is discretized by using the linear-implicit Crank-Nicolson method for the time variable and the Fourier pseudo-spectral method for the spatial variables. The resulted full-discrete scheme is linear and unconditionally energy stable, which makes numerical simulation easy to implement. By constructing an appropriate interpolation equation, the uniform boundedness of the numerical solution is obtained theoretically. Then, we prove that the numerical solutions converge with the order (( t)^2+h^m), where  t is the temporal step and h is the spatial step with m the regularity of exact solution. Several numerical examples are presented to confirm the theoretical results and demonstrate the effectiveness of the proposed linear scheme. The numerical strategies and analytical tools developed in this paper could be readily applied to study other phase field models or gradient flow problems.
+
+## Partial demixing of RNA-protein complexes leads to intradroplet patterning in phase-separated biological condensates
+
+- Authors: K. Gasior, J. Zhao, G. McLaughlin, M. G. Forest, A. S. Gladfelter, J. Newby
+- Venue: Physical Review E 99, 012411 (2019)
+- DOI: https://doi.org/10.1103/PhysRevE.99.012411
+- Page: https://zhaojia.net/publications/2019-PRE
+
+Abstract: An emerging mechanism for intracellular organization is liquid-liquid phase separation (LLPS). Found in both the nucleus and the cytoplasm, liquidlike droplets condense to create compartments that are thought to promote and inhibit specific biochemistry. In this work, a multiphase, Cahn-Hilliard diffuse interface model is used to examine RNA-protein interactions driving LLPS. We create a bivalent system that allows for two different species of protein-RNA complexes and model the competition that arises for a shared binding partner, free protein. With this system we demonstrate that the binding and unbinding of distinct RNA-protein complexes leads to diverse spatial pattern formation and dynamics within droplets. Both the initial formation and transient behavior of spatial patterning are subject to the exchange of free proteins between RNA-protein complexes. This study illustrates that spatiotemporal heterogeneity can emerge within phase-separated biological condensates with simple binding reactions and competition. Intradroplet patterning may influence droplet composition and, subsequently, cellular organization on a larger scale.
+
+## An accurate and efficient algorithm for the time-fractional molecular beam epitaxy model with slope selection
+
+- Authors: L. Chen, J. Zhang, J. Zhao, W. Cao, H. Wang, J. Zhang
+- Venue: Computer Physics Communications 245, 106842 (2019)
+- DOI: https://doi.org/10.1016/j.cpc.2019.07.008
+- arXiv: https://arxiv.org/abs/1803.01963
+- Page: https://zhaojia.net/publications/2019-CPC-2
+
+Abstract: In this paper, we propose a time-fractional molecular beam epitaxy (MBE) model with slope selection using the classical Caputo fractional derivative of order  (0 <  <1), which is shown to possess an energy dissipation law. Then we develop its efficient and accurate, fully discrete, linear numerical approximation. Utilizing the classical L^1 numerical treatment for the time-fractional derivative and the invariant energy quadratization strategy, the resulted semi-discrete scheme is shown to preserve the energy dissipation law and the total mass in the time discrete level. The rigorous numerical analysis is also provided to show its first order convergence in time. The semi-discrete scheme is further discretized in space using the Fourier spectral method, resulting in a fully discrete linear scheme. The fast algorithm for approximating the time-fractional derivative is also introduced to result in an efficient full discrete linear scheme. Time refinement tests are conducted for both schemes, verifying their first order of time convergence for arbitrary fractional order   (0, 1]. Several numerical simulations are presented to demonstrate the accuracy and efficiency of the newly proposed schemes. By exploring the fast algorithm calculating the Caputo fractional derivative, our numerical scheme makes it practical for long time simulation of the MBE model while preserving its energy stability, which is essential for MBE model predictions. With the proposed fractional MBE model, we observe that the effective energy decaying scales as  O(t^-3) and the roughness increases as O(t^3), during the coarsening dynamics with the random initial condition. That is to say, the coarsening rate of time fractional MBE model could be manipulated by the fractional order  as a power law proportional to . This is the first time in literature to report/discover such scaling correlation for the MBE model. It provides a potential application field for fractional differential equations to study anomalous coarsening. Besides, the numerical approximation strategy proposed in this paper can be readily applied to study many classes of time-fractional phase field models.
+
+## Efficient linear schemes for the nonlocal Cahn-Hilliard equation of phase field models
+
+- Authors: X. Yang, J. Zhao
+- Venue: Computer Physics Communications 235, 234-245 (2019)
+- DOI: https://doi.org/10.1016/j.cpc.2018.08.012
+- Page: https://zhaojia.net/publications/2019-CPC
+
+Abstract: In this paper, we develop two second-order in time, linear and unconditionally energy stable time marching schemes for solving the nonlocal Cahn-Hilliard phase field model. The main challenge to construct efficient and unconditional energy stable schemes for this model is how to design proper temporal discretizations for the nonlocal term that is induced from a convolutional type potential and the nonlinear cubic term that is induced from the double-well bulk potential. We solve these issues by developing two efficient time-stepping schemes using the Invariant Energy Quadratization approach. Its novelty is that all nonlinear terms can be treated semi-explicitly to produce linear schemes. We further show the well-posedness of the resulting linear system as well as its unconditional energy stability rigorously. Various numerical simulations are presented to demonstrate the stability, accuracy, and efficiency of the proposed schemes.
+
+## On linear and unconditionally energy stable algorithms for variable mobility Cahn-Hilliard type equation with logarithmic Flory-Huggins potential
+
+- Authors: X. Yang, J. Zhao
+- Venue: Communications in Computational Physics 25, 703-728 (2019)
+- DOI: https://doi.org/10.4208/cicp.oa-2017-0259
+- arXiv: https://arxiv.org/abs/1701.07410
+- Page: https://zhaojia.net/publications/2019-CICP-1
+
+Abstract: In this paper, we consider numerical approximations for the fourth-order Cahn-Hilliard equation with the concentration-dependent mobility and the logarithmic Flory-Huggins potential. One numerical challenge in solving such system is how to develop proper temporal discretization for nonlinear terms in order to preserve its energy stability at the time-discrete level. We overcome it by developing a set of first and second order time marching schemes based on a newly developed “Invariant Energy Quadratization” approach. Its novelty is producing linear schemes, by treating all nonlinear terms semi-explicitly. We further rigorously prove all proposed schemes are unconditionally energy stable. Various 2D and 3D numerical simulations are presented to demonstrate the stability, accuracy, and efficiency of the proposed schemes thereafter.
+
+## A linear energy and entropy-production-rate preserving scheme for thermodynamically consistent crystal growth models
+
+- Authors: Y. Zhao, J. Li, J. Zhao, Q. Wang
+- Venue: Applied Mathematics Letters 98, 142-148 (2019)
+- DOI: https://doi.org/10.1016/j.aml.2019.05.029
+- Page: https://zhaojia.net/publications/2019-AML-1
+
+Abstract: We present a linear, second order, energy and entropy-production-rate preserving scheme for a thermodynamically consistent phase field model for dentritic crystal growth, combining an energy quadratization strategy with the finite element method. The scheme can be decomposed into a series of Poisson equations for efficient numerical implementations. Numerical tests are carried out to verify the accuracy of the scheme and simulations are conducted to demonstrate the effectiveness of the scheme on benchmark examples.
+
+## Energy-stable Runge-Kutta schemes for gradient flow models using the energy quadratization approach
+
+- Authors: Y. Gong, J. Zhao
+- Venue: Applied Mathematics Letters 94, 224-231 (2019)
+- DOI: https://doi.org/10.1016/j.aml.2019.02.002
+- Page: https://zhaojia.net/publications/2019-AML-2
+
+Abstract: In this letter, we present a novel class of arbitrarily high-order and unconditionally energy-stable algorithms for gradient flow models by combining the energy quadratization (EQ) technique and a specific class of Runge-Kutta (RK) methods, which is named the EQRK schemes. First of all, we introduce auxiliary variables to transform the original model into an equivalent system, with he transformed free energy a quadratic functional with respect to the new variables and the modified energy dissipative law is conserved. Then a special class of RK methods is employed for the reformulated system to arrive at structure-preserving time-discrete schemes. Along with rigorous proofs, numerical experiments are presented to demonstrate the accuracy and unconditionally energy-stability of the EQRK schemes.
+
+## A novel second-order scheme for the molecular beam epitaxy model with slope selection
+
+- Authors: L. Chen, J. Zhao, Y. Gong
+- Venue: Communications in Computational Physics 25, 1024-1044 (2019)
+- DOI: https://doi.org/10.4208/cicp.oa-2018-0015
+- Page: https://zhaojia.net/publications/2019-CICP-2
+
+Abstract: Molecular beam epitaxy (MBE) is a very important and challenging research topic in material science. In this paper, we propose a new fully discrete scheme for the well-celebrated continuum MBE model with slope selection. First of all, we use a multi-step strategy to discretize the MBE model in time. The obtained semi-discrete scheme is proved to possess properties of total mass conservation, unconditionally energy stability and uniquely solvability. Rigorous error estimate is then conducted to show its second-order convergence. The semi-discrete scheme is further discretized in space using the Fourier pseudo-spectral method. The fully discrete scheme is also shown to preserve mass-conservation and energy-dissipation properties. Afterward, several numerical examples are presented to validate the accuracy and efficiency of our proposed scheme. In particular, the scaling law for the roughness growing and effective energy decaying are captured during long-time coarsening dynamic simulations. The idea proposed in this paper could be readily utilized to design accurate and stable numerical approximations for many other energy-based phase field models.
+
+## Energy and entropy preserving numerical approximations of thermodynamically consistent crystal growth models
+
+- Authors: J. Li, J. Zhao, Q. Wang
+- Venue: Journal of Computational Physics 382, 202-220 (2019)
+- DOI: https://doi.org/10.1016/j.jcp.2018.12.033
+- Page: https://zhaojia.net/publications/2019-JCP
+
+Abstract: We present a numerical scheme that preserves the energy and the entropy production rate, termed the energy and entropy production rate preserving scheme, for a general class of thermodynamically consistent phase field models for dendritic crystal growth derived from the first and second law of thermodynamics. The scheme is second order in time, linear upon applying the energy quadratization (EQ) technique and energy and entropy production rate preserving for any time step sizes. The scheme is first discretized in time and then in space using compact finite difference methods. The linear system of equations resulting from the scheme is shown to be uniquely solvable at both the semi-discrete level and the fully discrete level. Mesh refinement tests are performed to show the second-order time convergence rate in the scheme. Several numerical examples of dendritic crystal growth are provided to demonstrate the accuracy and efficiency of the scheme. The effects of various model parameters on growth patterns of the crystal are further investigated in details with the numerical solver. The approach to developing the energy and entropy production rate-preserving numerical scheme is so general that it can be applied to a wide range of thermodynamically consistent models not limited to phase field models.
+
+## On power law scaling dynamics for time-fractional phase field models during coarsening
+
+- Authors: J. Zhao, L. Chen, H. Wang
+- Venue: Communications in Nonlinear Science and Numerical Simulation 70, 257-270 (2019)
+- DOI: https://doi.org/10.1016/j.cnsns.2018.10.019
+- arXiv: https://arxiv.org/abs/1803.05128
+- Page: https://zhaojia.net/publications/2019-CNSNS
+
+Abstract: In this paper, the energy scaling behavior of the time-fractional phase field models is investigated. We report a seminal observation that the effective free energy of the time-fractional phase field models obeys a general power-law scaling dynamics during coarsening. Mainly, the effective free energy and roughness in the time-fractional phase field models scale by following a similar power law as the integer phase field models, where the power is linearly proportional to the fractional order. This general scaling law is verified numerically against several classes of phase field models, including the Cahn-Hilliard equation with different types of variable mobilities and the molecular beam epitaxy models. This new finding opens potential paths of applying time-fractional phase field models in studying anomalous coarsening dynamics.
+
+## Time-fractional Allen-Cahn and Cahn-Hilliard phase-field models and their numerical investigation
+
+- Authors: H. Liu, A. Cheng, H. Wang, J. Zhao
+- Venue: Computers & Mathematics with Applications 76, 1876-1892 (2018)
+- DOI: https://doi.org/10.1016/j.camwa.2018.07.036
+- Page: https://zhaojia.net/publications/2018-CMA
+
+Abstract: In this paper, we presented two time-fractional phase-field models to account for the memory effect of certain material or the transport process in heterogeneously distributed media. The energy dissipation of the system has been observed for both the time fractional Allen-Cahn equation and the time fractional Cahn-Hilliard equation in one and two space dimension. More precisely, the energy dissipation of the time fractional Allen-Cahn equation is faster than the that for integer order case, which seems not consistent with the definition of the fractional operator physically. However, the energy dissipation of the time fractional Cahn-Hilliard equation is proportional to the time fractional order. Namely, the larger fractional order is, the faster the energy decreases, which is more conform to the practice. Besides, we have observed that the time fractional Cahn-Hilliard equation also mass conservative. Sensitivity analysis on the tunable decay behavior for the one dimensional time fractional Allen-Cahn equation show that the decay behavior is more sensitive to the mobility and the time-fractional differential operator, especially the interface thickness.
+
+## Fully discrete second-order linear schemes for hydrodynamic phase field models of binary viscous fluid flows with variable densities
+
+- Authors: Y. Gong, J. Zhao, X. G. Yang, Q. Wang
+- Venue: SIAM Journal on Scientific Computing 40, B138-B167 (2018)
+- DOI: https://doi.org/10.1137/17m1111759
+- Page: https://zhaojia.net/publications/2018-SISC
+
+Abstract: We develop spatial-temporally second-order, energy stable numerical schemes for two classes of hydrodynamic phase field models of binary viscous fluid mixtures of different densities. One is quasi-incompressible while the other is incompressible. We introduce a novel energy qudratization technique to arrive at fully discrete linear schemes, where in each time step only a linear system needs to be solved. These schemes are then proved to be unconditionally energy stable rigorously subject to periodic boundary conditions so that a large time step is plausible. Both spatial and temporal mesh refinements are conducted to illustrate the second order accuracy of the schemes. The linearization technique developed in this paper is so general that it can be applied to any thermodynamically consistent hydrodynamic theories so long as their energies are bounded below. Numerical examples on coarsening dynamics of two immiscible fluids and a heavy fluid drop settling in a lighter fluid matrix are presented to show the effectiveness of our proposed linear schemes. Predictions by the two fluid mixture models are compared and discussed. In the end, we believe the quasi-incompressible model is more reliable than the incompressible one.
+
+## Second order fully discrete energy stable methods on staggered grids for hydrodynamic phase field models of binary viscous fluids
+
+- Authors: Y. Gong, J. Zhao, Q. Wang
+- Venue: SIAM Journal on Scientific Computing 40, B528-B553 (2018)
+- DOI: https://doi.org/10.1137/17m1135451
+- Page: https://zhaojia.net/publications/2018-SISC2
+
+Abstract: We present fully-discrete, energy stable methods on a spatially staggered grid for a hydrodynamic phase field model of binary viscous fluid mixtures in a confined geometry subject to both physical and periodic boundary conditions. Based on the idea of traditional structure-preserving algorithms, a fully nonlinear implicit energy stable method is constructed. Afterward, we apply the newly developed energy quadratization (EQ) strategy to develop a linear-implicit scheme, where in each time step only a linear algebraic equation system needs to be solved. Then, we extend it to a decoupled, linear scheme by introducing an intermediate velocity term, where the phase variable, velocity field and pressure can be solved sequentially. The two new fully discrete linear schemes are then shown to be unconditionally energy stable and the linear systems resulted from the schemes are proved to be uniquely solvable. Rates of convergence of the two linear schemes in both space and time are verified numerically. The decoupled scheme tends to introduce excessive dissipation compared with the coupled scheme. The code developed using the coupled scheme is then used to simulate fluid drops of one fluid in the matrix of another fluid as well as mixing dynamics of binary polymeric solutions.
+
+## Linear, second order and unconditionally energy stable schemes for the viscous Cahn-Hilliard equation with hyperbolic relaxation using the invariant energy quadratization method
+
+- Authors: X. Yang, J. Zhao, X. He
+- Venue: Journal of Computational and Applied Mathematics 343, 80-97 (2018)
+- DOI: https://doi.org/10.1016/j.cam.2018.04.027
+- arXiv: https://arxiv.org/abs/1701.02066
+- Page: https://zhaojia.net/publications/2018-JCAM
+
+Abstract: In this paper, we consider numerical approximations for the viscous Cahn-Hilliard equation with hyperbolic relaxation. This type of equations processes energy-dissipative structure. The main challenge in solving such a diffusive system numerically is how to develop high order temporal discretization for the hyperbolic and nonlinear terms, allowing large time-marching step, while preserving the energy stability, i.e. the energy dissipative structure at the time-discrete level. We resolve this issue by developing two second-order time-marching schemes using the recently developed “Invariant Energy Quadratization” (IEQ) approach where all nonlinear terms are discretized semi-explicitly. In each time step, one only needs to solve a symmetric positive definite (SPD) linear system. All the proposed schemes are rigorously proven to be unconditionally energy stable, and the second-order convergence in time has been verified by time step refinement tests numerically. Various 2D and 3D numerical simulations are presented to demonstrate the stability, accuracy and efficiency of the proposed schemes.
+
+## Linear second order in time energy stable schemes for hydrodynamic models of binary mixtures based on a spatially pseudospectral approximation
+
+- Authors: Y. Gong, J. Zhao, Q. Wang
+- Venue: Advances in Computational Mathematics 44, 1573-1600 (2018)
+- DOI: https://doi.org/10.1007/s10444-018-9597-5
+- Page: https://zhaojia.net/publications/2018-ACM
+
+Abstract: We develop two linear, second order energy stable schemes for solving the governing system of partial differential equations of a hydrodynamic phase field model of binary fluid mixtures. We first apply the Fourier pseudo-spectral approximation to the partial differential equations in space to obtain a semi-discrete, time-dependent, ordinary differential and algebraic equation (DAE) system, which preserves the energy dissipation law at the semi-discrete level. Then, we discretize the DAE system by the Crank-Nicolson (CN) and the second-order backward differentiation/extrapolation (BDF/EP) method in time, respectively, to obtain two fully discrete systems. We show that the CN method preserves the energy dissipation law while the BDF/EP method does not preserve it exactly but respects the energy dissipation property of the hydrodynamic model. The two new fully discrete schemes are linear, unconditional energy stable, second order accurate in time and high order in space, and uniquely solvable as linear systems. Numerical examples are presented to show the convergence property as well as the efficiency and accuracy of the new schemes in simulating mixing dynamics of binary polymeric solutions.
+
+## A general strategy for numerical approximations of non-equilibrium models, Part I: thermodynamical systems
+
+- Authors: J. Zhao, X. Yang, Y. Gong, X. Zhao, X. G. Yang, J. Li, Q. Wang
+- Venue: International Journal of Numerical Analysis and Modeling 15, 884-918 (2018)
+- Page: https://zhaojia.net/publications/2018-IJNAM
+
+Abstract: We present a generic approach to derive numerical approximations for thermodynamical consistent models for nonequilibrium phenomena. This paper focus on thermodynamic models. The central idea behind the systematic numerical approximation is the energy quadratization (EQ) method, where the system energy is quadratized by a new intermediate variable. By applying the EQ strategy, one can develop linear second order in time semi-discrete schemes that preserve the energy dissipation property in the original thermodynamically consistent model equations. The EQ method is developed for time discretization primarily. When coupled with an appropriate spatial discretization, a fully discrete, linear scheme can be developed to warrant the energy dissipation property of the fully discrete scheme. Several examples for multiphase field models are presented to illustrate the usefulness of the approach.
+
+## Regularized linear schemes for the molecular beam epitaxy model with slope selection
+
+- Authors: L. Chen, J. Zhao, X. Yang
+- Venue: Applied Numerical Mathematics 128, 139-156 (2018)
+- DOI: https://doi.org/10.1016/j.apnum.2018.02.004
+- Page: https://zhaojia.net/publications/2018-ANM
+
+Abstract: In this paper, we propose two full discrete linear schemes for the molecular beam epitaxy (MBE) model with slope selection, which are shown to be unconditionally energy stable and unique solvable. In details, using the invariant energy quadratization (IEQ) approach, along with a regularized technique, the MBE model is first discretized in time using either Crank-Nicolson or Adam-Bashforth strategies. The second-order in time semi-discrete schemes are shown to be energy stable, and unique solvable. Then we further use Fourier-spectral methods to discretize the space, ending with full discrete schemes that are energy-stable and unique solvable. In particular, they are linear such that only a linear algebra problem need to be solved at each time step. Through numerical tests, we have shown a proper choice of the regularization parameter would provide better stability and accuracy, such that larger time step is feasible. Afterward, we present several numerical simulations to demonstrate the accuracy and efficiency of our newly proposed schemes. Besides, the linearizing and regularizing strategy used in this paper could be readily applied to solve a class of phase field models that are derived from energy variation.
+
+## On hydrodynamic phase field models for binary fluid mixtures
+
+- Authors: X. Yang, Y. Gong, J. Li, J. Zhao, Q. Wang
+- Venue: Theoretical and Computational Fluid Dynamics 32, 537-560 (2018)
+- DOI: https://doi.org/10.1007/s00162-018-0463-3
+- Page: https://zhaojia.net/publications/2018-TCFD
+
+Abstract: Two classes of thermodynamically consistent hydrodynamic phase field models have been presented for binary fluid mixtures of incompressible viscous fluids with possibly different densities and viscosities. One is derived based on the mass-averaged velocity and quasi-incompressible while the other is derived based on the volume-averaged velocity and incompressible. To describe the same binary fluid mixture of two viscous fluid components, which model is more appropriate? To answer this question, we conduct a comparative study in this paper. First, we visit their derivation, conservation and energy dissipation properties and show that the quasi-incompressible model conserves both mass and linear momentum while the incompressible one does not. We then show that the quasi-incompressible model is sensitive to the density difference of the fluid components while the incompressible model is not in a linear stability analysis. Second, we conduct a numerical investigation on coarsening or coalescent dynamics of protuberances using the two models. We find that they can predict quite different transient dynamics depending on the initial conditions and the density difference although they predict essentially the same quasi-steady results in some cases. This study thus cast a doubt on the applicability of the incompressible model to describe dynamics of binary mixtures of two incompressible viscous fluids especially when the two fluid components have a large density difference.
+
+## An energy stable algorithm for a quasi-incompressible hydrodynamic phase-field model of viscous fluid mixtures with variable densities and viscosities
+
+- Authors: Y. Gong, J. Zhao, Q. Wang
+- Venue: Computer Physics Communications 219, 20-34 (2017)
+- DOI: https://doi.org/10.1016/j.cpc.2017.05.002
+- Page: https://zhaojia.net/publications/2017-CPC
+
+Abstract: A quasi-incompressible hydrodynamic phase field model for flows of fluid mixtures of two incompressible viscous fluids of distinct densities and viscosities is derived by using the generalized Onsager principle, which warrants the variational structure, the mass conservation and energy dissipation law. We recast the model in an equivalent form and discretize the equivalent system in space firstly to arrive at a time-dependent ordinary differential and algebraic equation (DAE) system, which preserves the mass conservation and energy dissipation law at the semi-discrete level. Then, we develop a temporal discretization scheme for the DAE system, where the mass conservation and the energy dissipation law are once again preserved at the fully discretized level. We prove that the fully discretized algorithm is unconditionally energy stable. Several numerical examples, including drop dynamics of viscous fluid drops immersed in another viscous fluid matrix and mixing dynamics of binary polymeric solutions, are presented to show the convergence property as well as the accuracy and efficiency of the new scheme.
+
+## A novel linear, second order, unconditionally energy-stable scheme for a hydrodynamic Q-tensor model for liquid crystals
+
+- Authors: J. Zhao, X. Yang, Y. Gong, Q. Wang
+- Venue: Computer Methods in Applied Mechanics and Engineering 318, 803-825 (2017)
+- DOI: https://doi.org/10.1016/j.cma.2017.01.031
+- Page: https://zhaojia.net/publications/2017-CMAME
+
+Abstract: The hydrodynamic -tensor model has been widely used for studying flows of liquid crystals and liquid crystal polymers. It is derived from a variational approach together with the generalized Onsager principle, in which the total energy decreases in time. In this paper, we develop a novel, linear, second order semi-discrete scheme in time to solve the governing system. The scheme is developed following the so called ``energy quadratization" technique so that it is linear and unconditionally energy stable at the semi-discrete level. This scheme is further discretized in space using a second order finite difference method and implemented on a GPU for high performance computing. The convergence rate in time is established using a mesh refinement test. Several numerical examples are presented to demonstrate the effectiveness of the model and the numerical scheme in simulating defect dynamics in flows of liquid crystals.
+
+## Numerical approximations for a three-component Cahn-Hilliard phase-field model based on the invariant energy quadratization method
+
+- Authors: X. Yang, J. Zhao, Q. Wang, J. Shen
+- Venue: Mathematical Models and Methods in Applied Sciences 27, 1993-2030 (2017)
+- DOI: https://doi.org/10.1142/s0218202517500373
+- Page: https://zhaojia.net/publications/2017-M3AS
+
+Abstract: How to develop efficient numerical schemes while preserving energy stability at the discrete level is challenging for the three-component Cahn-Hilliard phase-field model. In this paper, we develop a set of first and second order temporal approximation schemes based on a novel ``Invariant Energy Quadratization'' approach, where all nonlinear terms are treated semi-explicitly. Consequently, the resulting numerical schemes lead to well-posed linear systems with symmetric, positive definite operators to be solved at each time step. We prove that the developed schemes are unconditionally energy stable rigorously and present various 2D and 3D numerical simulations to demonstrate the stability and the accuracy of the schemes.
+
+## Numerical approximations for the molecular beam epitaxial growth model based on the invariant energy quadratization method
+
+- Authors: X. Yang, J. Zhao, Q. Wang
+- Venue: Journal of Computational Physics 333, 104-127 (2017)
+- DOI: https://doi.org/10.1016/j.jcp.2016.12.025
+- Page: https://zhaojia.net/publications/2017-JCP
+
+Abstract: The Molecular Beam Epitaxial model is derived from the variation of a free energy, that consists of either a fourth order Ginzburg-Landau double well potential or a nonlinear logarithmic potential in terms of the gradient of a height function. One challenge in solving the MBE model numerically is how to develop proper temporal discretization for the nonlinear terms in order to preserve energy stability at the time-discrete level. In this paper, we resolve this issue by developing a first and second order time-stepping scheme based on the ``Invariant Energy Quadratization" (IEQ) method. The novelty is that all nonlinear terms are treated semi-explicitly, and the resulted semi-discrete equations form a linear system at each time step. Moreover, the linear operator is symmetric positive definite and thus can be solved efficiently. We then prove that all proposed schemes are unconditionally energy stable. The semi-discrete schemes are further discretized in space using finite difference methods and implemented on GPUs for high-performance computing. Various 2D and 3D numerical examples are presented to demonstrate stability and accuracy of the proposed schemes.
+
+## Numerical approximations for a phase field dendritic crystal growth model based on the invariant energy quadratization approach
+
+- Authors: J. Zhao, Q. Wang, X. Yang
+- Venue: International Journal for Numerical Methods in Engineering 110, 279-300 (2017)
+- DOI: https://doi.org/10.1002/nme.5372
+- Page: https://zhaojia.net/publications/2017-NME
+
+Abstract: We present two accurate and efficient numerical schemes for a phase field dendritic crystal growth model, which is derived from the variation of a free energy functional, consisting of a temperature dependent bulk potential and a conformational entropy with a gradient-dependent anisotropic coefficient. We introduce a novel ‘Invariant Energy Quadratization ’ approach to transform the free energy functional into a quadratic form by introducing new variables to substitute the nonlinear transformations. Based on the reformulated equivalent governing system, we develop a first and a second order semi-discretized scheme in time for the system, in which all nonlinear terms are treated semi-explicitly. The resulting semi-discretized equations consist of a linear elliptic equation system at each time step, where the coefficient matrix operator is positive definite and thus the semi-discrete system can be solved efficiently. We further prove that the proposed schemes are unconditionally energy stable. Convergence test together with 2D and 3D numerical simulations for dendritic crystal growth are presented after the semi-discrete schemes are fully discretized in space using the finite difference method to demonstrate the stability and the accuracy of the proposed schemes.
+
+## Decoupled energy stable schemes for a phase field model of three-phase incompressible viscous fluid flow
+
+- Authors: J. Zhao, H. Li, Q. Wang, X. Yang
+- Venue: Journal of Scientific Computing 70, 1367-1389 (2017)
+- DOI: https://doi.org/10.1007/s10915-016-0283-9
+- Page: https://zhaojia.net/publications/2017-JSC
+
+Abstract: We develop a numerical approximation for a hydrodynamic phase-field model of three immiscible, incompressible viscous fluid phases. The model is derived from a generalized Onsager's principle following an energetic variational formulation and is consisted of the momentum transport equation and the coupled phase transport equations. It conserves the volume of each phase and warrants the total energy dissipation in time. Its numerical approximation is given by an easy-to-implement, semi-discrete scheme, leading to a set of linear, decoupled elliptic equations at each time step which can be solved efficiently using fast solvers. We prove that the scheme is energy stable. Mesh refinement tests and three numerical examples of three-phase viscous fluid flows in 3D are presented to benchmark the effectiveness of the model as well as the efficiency of the numerical scheme.
+
+## Modeling and simulation of bacterial biofilm treatment with applications to food science
+
+- Authors: J. Zhao, T. Zhang, Q. Wang
+- Venue: Nanotechnology in Agriculture and Food Science (2017)
+- DOI: https://doi.org/10.1002/9783527697724.ch14
+- Page: https://zhaojia.net/publications/2017-BookChapter
+
+Abstract: In this article, we first review the progress achieved in mathematical modeling of biofilms over the last 30 years and then present a few mathematical models and simulation results in biofilm treatment using nanotechnology pertinent to applications in food and health care industry. Bacterial biofilms can form in infected tissues and organs posing serious health hazard to our population; they can also form in packaged food or during food transportation threatening food safety in the food supply chain. Treating biofilm and/or preventing biofilm formation is of significant scientific, industrial, economic, and health benefits to our society. In three modeling examples presented in this article, we discuss (i) how to model antibacterial packaging to reduce and/or prevent biofilm growth, (ii) how to model and simulate the process of nanoparticle penetration into a bacterial cell and (iii) how a bioactive nanoparticle can deliver surfactant to the surface of a cell. All these can find direct applications in food science and medical treatment of biofilms involving nanotechnology.
+
+## Three-dimensional numerical simulations of biofilm dynamics with quorum sensing in a flow cell
+
+- Authors: J. Zhao, Q. Wang
+- Venue: Bulletin of Mathematical Biology 79, 884-919 (2017)
+- DOI: https://doi.org/10.1007/s11538-017-0259-4
+- Page: https://zhaojia.net/publications/2017-BMB
+
+Abstract: We develop a multiphasic hydrodynamic theory for biofilms taking into account interactions among various bacterial phenotypes, extracellular polymeric substance (EPS), quorum sensing (QS) molecules, solvent, and possibly antibiotics. In the model, bacteria are classified into down-regulated QS, up-regulated QS, and non QS cells based on their QS ability. The model is first benchmarked against an experiment yielding an excellent fit to experimental measurements on the concentration of QS molecules and the cell density during biofilm development. It is then applied to study development of heterogeneous structures in biofilms due to interactions of QS regulation, hydrodynamics, and possibly antimicrobial treatment. Our 3D numerical simulations using the model have confirmed that (i). QS is beneficial for biofilm development in a long run by building a robust EPS population to protect the biofilm; (ii). biofilms located upstream can induce QS downstream when the colonies are close enough spatially; (iii). QS induction may not be fully operational and can even be compromised in strong laminar flows; (v). the hydrodynamic stress alters the biofilm morphology. Through further numerical investigations, our model suggests that (i). QS-regulated EPS production contributes to the structural formation of heterogeneous biofilms; (ii) QS down-regulated cells tend to grow at the surface of the biofilm while QS up-regulated ones tend to grow in the bulk; (iii) when nutrient supply is sufficient, QS induction might be more effective upstream than downstream; (iv) QS may be of little benefit in a short time scale in term of fighting against invading strain/species; (v) the material properties of biomass (bacteria and EPS) have strong impact on the dilution of QS molecules under strong shear flow. In addition, with this modeling framework, hydrodynamic details and rheological quantities associated with biofilm formation under QS regulation can be resolved.
+
+## Numerical approximations to a new phase field model for two phase flows of complex fluids
+
+- Authors: J. Zhao, Q. Wang, X. Yang
+- Venue: Computer Methods in Applied Mechanics and Engineering 310, 77-97 (2016)
+- DOI: https://doi.org/10.1016/j.cma.2016.06.008
+- Page: https://zhaojia.net/publications/2016-CMAME
+
+Abstract: We derive a new phase field theory for immiscible mixtures of nematic liquid crystals and viscous fluids using the variational principle coupled with the generalized Onsager principle. A novel phase transition mechanism is implemented to couple the nematic liquid crystal phase with the viscous fluid phase to arrive at the dissipative hydrodynamic model for incompressible fluid mixtures. Through a delicate explicit--implicit numerical discretization, we develop a decoupled, linear scheme for a simplified version of the phase field model, as well as a coupled, nonlinear scheme for the full model. Both schemes are shown as unconditionally energy stable with consistent, discrete dissipative energy laws. Several numerical examples are presented to show the effectiveness of the new model and the new numerical schemes developed for it.
+
+## Energy stable numerical schemes for a hydrodynamic model of nematic liquid crystals
+
+- Authors: J. Zhao, X. Yang, J. Li, Q. Wang
+- Venue: SIAM Journal on Scientific Computing 38, A3264-A3290 (2016)
+- DOI: https://doi.org/10.1137/15m1024093
+- Page: https://zhaojia.net/publications/2016-SISC
+
+Abstract: We develop a first-order and a second-order, coupled, energy stable numerical scheme for a modified Ericksen-Leslie hydrodynamic model for nematic liquid crystals. We then discuss two ways to develop decoupled schemes for the model and show that they are energy stable as well. The coupled schemes are implemented in 2 dimensional space, with which we study defect dynamics in flows of nematic liquid crystals. Comparisons of our model predictions with that of a reduced model previously studied, which used the material derivative in place of the time invariant derivative in the Ericksen-Leslie model, are made, demonstrating quite different, but more realistic orientational dynamics.
+
+## A decoupled energy stable scheme for a hydrodynamic phase-field model of mixtures of nematic liquid crystals and viscous fluids
+
+- Authors: J. Zhao, X. Yang, J. Shen, Q. Wang
+- Venue: Journal of Computational Physics 305, 539-556 (2016)
+- DOI: https://doi.org/10.1016/j.jcp.2015.09.044
+- Page: https://zhaojia.net/publications/2016-JCP
+
+Abstract: We develop a linear, first-order, decoupled, energy-stable scheme for a two-phase hydrodynamic phase field model of mixtures of nematic liquid crystals and viscous fluids that satisfies an energy dissipation law. We show that the semi-discrete scheme in time satisfies an analogous, semi-discrete energy-dissipation law for any time-step and is therefore unconditional stable. We then discretize the spatial operators in the scheme by a finite-difference method and implement the fully discrete scheme in a simplified version using CUDA on GPUs in 3 dimension in space and time. Two numerical examples for rupture of nematic liquid crystal filaments immersed in a viscous fluid matrix are given, illustrating the effectiveness of this new scheme in resolving complex interfacial phenomena in free surface flows of nematic liquid crystals.
+
+## Modeling the excess cell surface stored in a complex morphology of bleb-like protrusions
+
+- Authors: M. Kapustina, D. Tsygankov, J. Zhao, T. Wessler, X. Yang, A. Chen, N. Roach, T. C. Elston, Q. Wang, K. Jacobson, M. G. Forest
+- Venue: PLOS Computational Biology 12, e1004841 (2016)
+- DOI: https://doi.org/10.1371/journal.pcbi.1004841
+- Page: https://zhaojia.net/publications/2016-PLOSCB
+
+Abstract: We introduce a three phase cell model, where the cortex is explicitly tracked. Within the cortex, we propose a transport equation for the macroscopic orientation of the microfilament. The hydrodynamic effects on the cell morphology is investigated.
+
+## Experimental and theoretical investigation of multispecies oral biofilm resistance to chlorhexidine treatment
+
+- Authors: Y. Shen, J. Zhao, C. de la Fuente-Núñez, Z. Wang, R. E. W. Hancock, C. R. Roberts, J. Ma, J. Li, M. Haapasalo, Q. Wang
+- Venue: Scientific Reports 6, 27537 (2016)
+- DOI: https://doi.org/10.1038/srep27537
+- Page: https://zhaojia.net/publications/2016-SREP
+
+Abstract: We investigate recovery of multispecies oral biofilms following chlorhexidine gluconate (CHX) and CHX with surface modifiers (CHX-Plus) treatment. Specifically, we examine the percentage of viable bacteria in the biofilms following their exposure to CHX and CHX-Plus for 1, 3, and 10 minutes, respectively. Before antimicrobial treatment, the biofilms are allowed to grow for three weeks. We find that (a). CHX Plus kills bacteria in biofilms more effectively than the regular 2% CHX does, (b). cell continues to be killed for up to one week after exposure to the CHX solutions, (c). the biofilms start to recover after two weeks, the percentage of the viable bacteria recovers in the 1 and 3 minutes treatment groups but not in the 10 minutes treatment group after five weeks, and the biofilms fully return to the pretreatment levels after eight weeks. To understand the mechanism, a mathematical model for multiple bacterial phenotypes is developed, adopting the notion that bacterial persisters exist in the biofilms together with regulatory quorum sensing molecules and growth factor proteins. The model reveals the crucial role played by the persisters, quorum sensing molecules, and growth factors in biofilm recovery, accurately predicting the viable bacterial population after CHX treatment.
+
+## Semi-discrete energy-stable schemes for a tensor-based hydrodynamic model of nematic liquid crystal flows
+
+- Authors: J. Zhao, Q. Wang
+- Venue: Journal of Scientific Computing 68, 1241-1266 (2016)
+- DOI: https://doi.org/10.1007/s10915-016-0177-x
+- Page: https://zhaojia.net/publications/2016-JSC
+
+Abstract: In this paper, we develop a first-order and a second-order coupled energy stable numerical scheme respectively for a Q-tensor based hydrodynamic model of nematic liquid crystal flows. We then extend the first order coupled scheme to a decoupled scheme and show that it is energy stable as well. The fully coupled schemes are implemented in 2-dimensional space and time, with which we study defect dynamics in flows of nematic liquid crystals in a channel. The numerical schemes are shown to be effective in solving the Q-tensor based liquid crystal model. The methodology developed here also provides a paradigm for developing energy-stable schemes for more general hydrodynamic models of complex fluids which obey an energy dissipation law.
+
+## Modeling cytokinesis of eukaryotic cells driven by the actomyosin contractile ring
+
+- Authors: J. Zhao, Q. Wang
+- Venue: International Journal for Numerical Methods in Biomedical Engineering 32, e02774 (2016)
+- DOI: https://doi.org/10.1002/cnm.2774
+- Page: https://zhaojia.net/publications/2016-NMBE
+
+Abstract: A 3D hydrodynamic model for cytokinesis of eukaryotic cells is developed, in which we model dynamics of actomyosins in the cell cortex, in particular, along the cytokinetic ring formed in the cortex and in the neighborhood of the cell's division plane explicitly. Specifically, the active force actuated by the actomyosin's activity along the cytokinetic ring is modeled by a surface force whose strength is proportional to the actomyosin concentration while the cell morphology is tracked by a phase field model. The model is then solved in 3-dimensional (3D) space and time using a finite difference method on Graphic Processing Units (GPUs). Dynamical morphological patterns of eukaryotic cells during cytokinesis are numerically simulated with the model.These simulated morphological patterns agree quantitatively with experimental observations.
+
+## A 3D multiphase hydrodynamic model for cytokinesis of eukaryotic cells
+
+- Authors: J. Zhao, Q. Wang
+- Venue: Communications in Computational Physics 19, 663-681 (2016)
+- DOI: https://doi.org/10.4208/cicp.181014.140715a
+- Page: https://zhaojia.net/publications/2016-CICP
+
+Abstract: In the late stage of the mitotic cycle of eukaryotic cells, cytokinesis ensues where a parent cell replicates its nucleus with the necessary genetical substances (i.e., DNAs and chromosomes) and splits into two similar offspring cells. This mitotic process involves complex chemical, biophysical and mechanical processes whose details are just begin to be unfolded experimentally. In this paper, we propose a full 3-D hydrodynamical model using a phase field approach to study the cellular morphological change during cytokinesis. In this model, the force along the contracting ring induced by remodeling of actin-myosin filament on cell cortex layer at a division plane of the parent cell during cytokinesis, is approximated using a proxy force anchored on the newly formed nuclei. The symmetric or asymmetric cell division, i.e. a parent cell dividing its cytoplasm to produce two equal sized or unequal sized offspring cells, is simulated numerically with the model. Our numerical results show that the location of the division plane and the contracting force along the cytokinetic ring on the division plane is essential for the cell division. In addition, our numerical study also shows that, during cytokinesis, surface tension of the cell membrane also contributes to this process by retaining the morphological integrity of the offspring cells. This model and the accompanying numerical simulation tool provide a solid framework to build upon with more sophisticated whole cell models to probe the cell mitotic process.
+
+## A 3D numerical study of antimicrobial persistence in heterogeneous multi-species biofilms
+
+- Authors: J. Zhao, Y. Shen, M. Haapasalo, Z. Wang, Q. Wang
+- Venue: Journal of Theoretical Biology 392, 83-98 (2016)
+- DOI: https://doi.org/10.1016/j.jtbi.2015.11.010
+- Page: https://zhaojia.net/publications/2016-JTB
+
+Abstract: We develop a 3D hydrodynamic model to investigate the mechanism of antimicrobial persistence in a multi-species oral biofilm and its recovery after being treated by bisbiguanide chlorhexidine gluconate (CHX). In addition to the hydrodynamic transport in the spatially heterogeneous biofilm, the model also includes mechanisms of solvent-biomass interaction, bacterial phenotype conversion, and bacteria-drug interaction. A numerical solver for the model is developed using a second order numerical scheme in 3D space and time and implemented on GPUs. The model is calibrated against a set of experimental data obtained using confocal laser scan microscopy (CLSM) on a multi-species oral biofilm, where a quantitative agreement is reached. Our numerical results reveal that quorum sensing molecules and growth factors in this model are instrumental in biofilm formation and recovery after the antimicrobial treatment. In particular, we show that (i). young biofilms are more susceptible to the antimicrobial treatment than the mature ones, (ii). this phenomenon is strongly correlated with volume fractions of the persister and EPS in the biofilm being treated. This suggests that antimicrobial treatment be best administered to biofilms earlier before they mature to produce a thick protective EPS layer. In addition, the numerical study also indicates that an antimicrobial effect can be achieved should a proper mechanism be devised to minimize the conversion of susceptible bacteria to persisters during and even after the treatment.
+
+## Modeling antimicrobial tolerance and treatment of heterogeneous biofilms
+
+- Authors: J. Zhao, P. Seeluangsawat, Q. Wang
+- Venue: Mathematical Biosciences 282, 1-15 (2016)
+- DOI: https://doi.org/10.1016/j.mbs.2016.09.005
+- Page: https://zhaojia.net/publications/2016-MB
+
+Abstract: Biofilms are known to be more persistent to antimicrobial treatment than planktonic bacterial cells. In addition to the protective extracellular matrix formed primarily by expopolysaccharides (EPS), one of the current point of views on this issue is that there may exist a small portion of phenotypic bacterial variants, known as persisters, which are invulnerable to antimicrobial treatment, while the majority of the bacterial cells is susceptible to antimicrobial treatment. In this paper, a multiphasic, hydrodynamic model for spatially heterogeneous biofilms based on the phase field formulation is proposed and applied to analyze the mechanism of antimicrobial persistence of biofilms by acknowledging the existence of persisters and susceptible cells in the total population of bacteria and to investigate the impact of hydrodynamics during antimicrobial treatment. An improved switching mechanism between the persister and susceptible cells is proposed. A numerical scheme is devised to solve the model consisting of partial differential equations, which is implemented on graphic processing units (GPUs) for high performance computing in 3-D space and time. Antimicrobial treatment in an infinitely long quiescent water channel and in a short water tube under inflow and outflow boundary conditions are simulated respectively using the model, in which multiple antibiotic dosing locations and strategies are investigated. The model can predict the internal spatial and temporal distribution of bacteria, EPS, nutrient and antimicrobial agents during antimicrobial treatment, providing a useful tool for analyzing the mechanism of biofilm persistence to antimicrobial treatment in an aqueous environment. The numerical result shows the mechanism of conversion between the susceptible bacteria and persisters is essential for dynamics of persisters and thereby biofilm growth.
